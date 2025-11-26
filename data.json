@@ -1,0 +1,2865 @@
+{
+  "cinemas": [
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Delipark_XXI",
+      "name": "Delipark XXI",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/SMgAD3sMrh5mhyH18",
+      "latitude": 3.593484,
+      "longitude": 98.67356845,
+      "address": "Jln. Guru Patimpus Blok OPQ No. 1, Kesawan, Kec. Medan Barat, Medan, Sumatera Utara",
+      "rating": "4,5",
+      "ticketPrice": "Rp. 50.000-150.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
+          "title": "The Running Man",
+          "director": "Edgar Wright",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction",
+            "Thriller"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D"
+          ],
+          "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
+          "durationMinutes": "133 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Sun_Plaza",
+      "name": "Cinepolis Sun Plaza",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/ZY7GQdcuS3yx3aip6",
+      "latitude": 3.581239,
+      "longitude": 98.67105,
+      "address": "Jl. KH. Zainul Arifin No.7, Madras Hulu, Kec. Medan Polonia",
+      "rating": "4,6",
+      "ticketPrice": "Rp. 69.000,00-150.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Wicked",
+          "title": "Wicked",
+          "director": "Jon M. Chu",
+          "genres": [
+            "Fantasy",
+            "Romance"
+          ],
+          "cinemas": [],
+          "ageRating": "SU",
+          "screenTypes": [
+            "Junior 2D",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Cynthia Erivo, Ariana Grande, Jonathan Bailey, Marissa Bode, Ethan Slater, Michelle Yeoh, Jeff Goldblum, Keala Settle, Bronwyn James, Bowen Yang, Aaron Teoh Guan Ti, Adam James, Colin Michael Carmicha",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Wicked_(film_2024)",
+          "durationMinutes": "160 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Paradise_at_Mother_Feet",
+          "title": "Paradise at Mother Feet",
+          "director": "Ruslan Akun",
+          "genres": [],
+          "cinemas": [
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Emil Esenaliev, Anarkul Nazarkulova, Bolot Tentimyshov",
+          "sinopsisUrl": null,
+          "durationMinutes": "131 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Suzuya_Merdeka_Mall_Siantar_XXI",
+      "name": "Suzuya Merdeka Mall Siantar XXI",
+      "city": "Pematang Siantar",
+      "mapLink": "https://maps.app.goo.gl/mnNfuRR3rGPRRuZa6?g_st=ipc",
+      "latitude": 2.958564,
+      "longitude": 99.066497,
+      "address": "Jl. Merdeka No. 375, Pardomuan, Kec. Siantar Timur, Kota Pematang Siantar, Sumatera Utara",
+      "rating": "4,9",
+      "ticketPrice": "Rp.40.000-55.000",
+      "totalStudios": "4",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/CGV_Focal_Point",
+      "name": "CGV Focal Point",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/C8S9gcZcdEu1EVir9",
+      "latitude": 3.5673927,
+      "longitude": 98.6259278,
+      "address": "Lt.3 Focal Point Medan, Jl. Ring Road, Asam Kumbang, Kec. Medan Selayang, Kota Medan, Sumatera Utara",
+      "rating": "4,6",
+      "ticketPrice": "Rp.35.000-50.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo",
+          "title": "My Boo",
+          "director": "Khomkrit Treewimol",
+          "genres": [
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn",
+          "sinopsisUrl": null,
+          "durationMinutes": "117 menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Legend_of_Hei_2",
+          "title": "The Legend of Hei 2",
+          "director": "Jie Gu",
+          "genres": [
+            "Animation"
+          ],
+          "cinemas": [],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Xin Shan, Chenyang Fu, Seth Fuentes, Zhenji Huang, Lu Li, Mingyue Liu, Eric Yang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/The_Legend_of_Hei_II",
+          "durationMinutes": "120 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Siantar_City_Square",
+      "name": "Cinepolis Siantar City Square",
+      "city": "Pematang Siantar",
+      "mapLink": "https://maps.app.goo.gl/y79o9cDbgrT2jHHF7",
+      "latitude": 2.98807,
+      "longitude": 99.08132,
+      "address": "Jl. Raya Medan no 88, Martoba, Kecamatan siantar utara, Naga Pita, Kota Pematang Siantar, Sumatera Utara , Pematang Siantar.",
+      "rating": "4,3",
+      "ticketPrice": "Rp.45.000-57.000",
+      "totalStudios": "4",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
+          "title": "The Running Man",
+          "director": "Edgar Wright",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction",
+            "Thriller"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D"
+          ],
+          "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
+          "durationMinutes": "133 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Suzuya_Plaza_XXI",
+      "name": "Suzuya Plaza XXI",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/qCqXonbcaYmHYX3G8",
+      "latitude": 3.67838,
+      "longitude": 98.65718,
+      "address": "Jl. Marelan Raya No.207 Lt.3, Tanah Enam Ratus, Kec. Medan Marelan, Kota Medan, Sumatera Utara",
+      "rating": "4,4",
+      "ticketPrice": "Rp.40.000-50.000",
+      "totalStudios": "4",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Maju_Serem_Mundur_Horor",
+          "title": "Maju Serem Mundur Horor",
+          "director": "Chiska Doppert",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Horor"
+          ],
+          "cinemas": [
+            "Suzuya Plaza XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Sara Wijayanto, Carissa Perusset, Dodit Mulyanto, Sara Fajira, Daffa Ariq, Yewen, Gary M. Iskak, Kanaya Gleadys, Maell Lee, Ruhut Sitompul",
+          "sinopsisUrl": null,
+          "durationMinutes": "91 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Thamrin_Plaza_Cinema_XXI",
+      "name": "Thamrin Plaza Cinema XXI",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/yS4f7S9Yxn53exoT7",
+      "latitude": 3.58652,
+      "longitude": 98.69179,
+      "address": "Thamrin Plaza Lantai 7 Jalan MH Thamrin No.75R Medan Kota Pandau Hulu I, Sei Rengas II, Kec. Medan Area, Kota Medan, Sumatera Utara",
+      "rating": "4,5",
+      "ticketPrice": "Rp. 40.000-50.000",
+      "totalStudios": "4",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cambridge_City_Square_XXI",
+      "name": "Cambridge City Square XXI",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/vmC5fXYyfsHzxWHc6",
+      "latitude": 3.5847789,
+      "longitude": 98.6670795,
+      "address": "Jl. S. Parman, Petisah Tengah, Kec. Medan Petisah, Kota Medan, Sumatera Utara",
+      "rating": "4,6",
+      "ticketPrice": "Rp.40.000-150.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
+          "title": "The Running Man",
+          "director": "Edgar Wright",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction",
+            "Thriller"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D"
+          ],
+          "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
+          "durationMinutes": "133 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_First_Ride",
+          "title": "The First Ride",
+          "director": "Nam Dae-joong",
+          "genres": [
+            "Adventure",
+            "Comedy"
+          ],
+          "cinemas": [],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Kang Ha-neul, Kim Young-kwang, Cha Eun Woo, Kang Young-suk, Han Seon-hwa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/The_First_Ride",
+          "durationMinutes": "116 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Lippo_Plaza",
+      "name": "Cinepolis Lippo Plaza",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/RV31DFSMVLyU8bp18",
+      "latitude": 3.58649,
+      "longitude": 98.67332,
+      "address": "Jl. Imam Bonjol No.6, Petisah Tengah, Kec. Medan Petisah, Kota Medan, Sumatera Utara",
+      "rating": "4,4",
+      "ticketPrice": "Rp. 40.000-47.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Tak_Kenal_Maka_Taaruf",
+          "title": "Tak Kenal Maka Taaruf",
+          "director": "Fajar Bustomi",
+          "genres": [
+            "Comedy",
+            "Religi",
+            "Romance"
+          ],
+          "cinemas": [],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Fadi Alaydrus, Saskia chadwick, Dinda Mahira, Shandy William, Ika Diharjo, Ina Marika, Kheyla Afzah, Avit Arie, Ghina Nisa Salsabiela, Maghara Adipura, Cahya Arunagara, Tania Anjani",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Tak_Kenal_Maka_Taaruf",
+          "durationMinutes": "99 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo",
+          "title": "My Boo",
+          "director": "Khomkrit Treewimol",
+          "genres": [
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn",
+          "sinopsisUrl": null,
+          "durationMinutes": "117 menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/AFTERSUN",
+          "title": "AFTERSUN",
+          "director": "Charlotte Wells",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "Cinepolis Lippo Plaza"
+          ],
+          "ageRating": "SU",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Paul Mescal, Frankie Corio, Celia Rawlson-Hall",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Aftersun",
+          "durationMinutes": "103 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Wicked",
+          "title": "Wicked",
+          "director": "Jon M. Chu",
+          "genres": [
+            "Fantasy",
+            "Romance"
+          ],
+          "cinemas": [],
+          "ageRating": "SU",
+          "screenTypes": [
+            "Junior 2D",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Cynthia Erivo, Ariana Grande, Jonathan Bailey, Marissa Bode, Ethan Slater, Michelle Yeoh, Jeff Goldblum, Keala Settle, Bronwyn James, Bowen Yang, Aaron Teoh Guan Ti, Adam James, Colin Michael Carmicha",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Wicked_(film_2024)",
+          "durationMinutes": "160 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Legend_of_Hei_2",
+          "title": "The Legend of Hei 2",
+          "director": "Jie Gu",
+          "genres": [
+            "Animation"
+          ],
+          "cinemas": [],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Xin Shan, Chenyang Fu, Seth Fuentes, Zhenji Huang, Lu Li, Mingyue Liu, Eric Yang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/The_Legend_of_Hei_II",
+          "durationMinutes": "120 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Manhattan_Times_Square_XXI",
+      "name": "Manhattan Times Square XXI",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/ERSHSdf4uBjKiX5L7",
+      "latitude": 3.583,
+      "longitude": 98.6344,
+      "address": "Jl. Gatot Subroto No.21, Sei Sikambing B, Kec. Medan Sunggal",
+      "rating": "4,6",
+      "ticketPrice": "Rp. 35.000-50.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Air_Mata_Diujung_Sajadah_2",
+          "title": "Air Mata Diujung Sajadah 2",
+          "director": "Key Mangunsong",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "Manhattan Times Square XXI"
+          ],
+          "ageRating": "SU",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Daffa Wardhana, Fedi Nuril, Citra Kirana, Muhammad Faqih Alaydrus, Titi Kamal, Jenny Rachman",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Air_Mata_di_Ujung_Sajadah_2",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
+          "title": "The Running Man",
+          "director": "Edgar Wright",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction",
+            "Thriller"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D"
+          ],
+          "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
+          "durationMinutes": "133 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Millennium_ICT_Center_XXI",
+      "name": "Millennium ICT Center XXI",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/ctWv5XbWrmCswQhP6",
+      "latitude": 3.59945,
+      "longitude": 98.64455,
+      "address": "Jl. Kapten Muslim No. 111 Dwikora, Medan Helvetia, Kota Medan Sumatera Utara",
+      "rating": "4,4",
+      "ticketPrice": "Rp.35.000-40.000",
+      "totalStudios": "5",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Binjai_SuperMall",
+      "name": "Cinepolis Binjai SuperMall",
+      "city": "Binjai",
+      "mapLink": "https://maps.app.goo.gl/cNPHt1V7oGbULhLYA",
+      "latitude": 3.60785,
+      "longitude": 98.49621,
+      "address": "Jl. Soekarno Hatta No.14, Timbang Langkat, Kec. Binjai Timur, Kota Binjai, Sumatera Utara",
+      "rating": "4,4",
+      "ticketPrice": "Rp. 42.000-62.000",
+      "totalStudios": "4",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Paradise_at_Mother_Feet",
+          "title": "Paradise at Mother Feet",
+          "director": "Ruslan Akun",
+          "genres": [],
+          "cinemas": [
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Emil Esenaliev, Anarkul Nazarkulova, Bolot Tentimyshov",
+          "sinopsisUrl": null,
+          "durationMinutes": "131 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
+          "title": "The Running Man",
+          "director": "Edgar Wright",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction",
+            "Thriller"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D"
+          ],
+          "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
+          "durationMinutes": "133 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Ringroad_Citywalks_XXI",
+      "name": "Ringroad Citywalks XXI",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/97tf2BezeZJDv4d57",
+      "latitude": 3.575539,
+      "longitude": 98.62586,
+      "address": "Jl. Gagak Hitam No.28, Medan Sunggal, Medan, Sumatera Utara",
+      "rating": "4,5",
+      "ticketPrice": "Rp.50.000-65.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo",
+          "title": "My Boo",
+          "director": "Khomkrit Treewimol",
+          "genres": [
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn",
+          "sinopsisUrl": null,
+          "durationMinutes": "117 menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
+          "title": "The Running Man",
+          "director": "Edgar Wright",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction",
+            "Thriller"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D"
+          ],
+          "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
+          "durationMinutes": "133 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinema_XXI_Centre_Point",
+      "name": "Cinema XXI Centre Point",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/PYRa9hdBbNp2BeZZA",
+      "latitude": 3.589242,
+      "longitude": 98.673522,
+      "address": "Jl. Jawa No.8, Gg. Buntu, Kec. Medan Timur, Kota Medan",
+      "rating": "4,6",
+      "ticketPrice": "Rp.50.000- 65.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo",
+          "title": "My Boo",
+          "director": "Khomkrit Treewimol",
+          "genres": [
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn",
+          "sinopsisUrl": null,
+          "durationMinutes": "117 menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
+          "title": "The Running Man",
+          "director": "Edgar Wright",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction",
+            "Thriller"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D"
+          ],
+          "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
+          "durationMinutes": "133 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Medan_Fair_Plaza",
+      "name": "Cinepolis Medan Fair Plaza",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/82gEMEEkocnFybbr7",
+      "latitude": 3.5934,
+      "longitude": 98.66439,
+      "address": "Jl. Gatot Subroto No.30, Sekip, Medan Petisah, Sekip, Medan Petisah, Kota Medan, Sumatera Utara",
+      "rating": "4,4",
+      "ticketPrice": "Rp.44.000-54.000",
+      "totalStudios": "6",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Paradise_at_Mother_Feet",
+          "title": "Paradise at Mother Feet",
+          "director": "Ruslan Akun",
+          "genres": [],
+          "cinemas": [
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Emil Esenaliev, Anarkul Nazarkulova, Bolot Tentimyshov",
+          "sinopsisUrl": null,
+          "durationMinutes": "131 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Hermes_XXI",
+      "name": "Hermes XXI",
+      "city": "Medan",
+      "mapLink": "https://maps.app.goo.gl/wtjjiU1iCG5J6KHb6",
+      "latitude": 3.57076,
+      "longitude": 98.66615,
+      "address": "Jl. Mongonsidi No.45, Polonia, Kec. Medan Polonia, Kota Medan, Sumatera Utara",
+      "rating": "4,4",
+      "ticketPrice": "Rp. 35.000-40.000",
+      "totalStudios": "4",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Wicked",
+          "title": "Wicked",
+          "director": "Jon M. Chu",
+          "genres": [
+            "Fantasy",
+            "Romance"
+          ],
+          "cinemas": [],
+          "ageRating": "SU",
+          "screenTypes": [
+            "Junior 2D",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Cynthia Erivo, Ariana Grande, Jonathan Bailey, Marissa Bode, Ethan Slater, Michelle Yeoh, Jeff Goldblum, Keala Settle, Bronwyn James, Bowen Yang, Aaron Teoh Guan Ti, Adam James, Colin Michael Carmicha",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Wicked_(film_2024)",
+          "durationMinutes": "160 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Irian_Kisaran_XXI",
+      "name": "Irian Kisaran XXI",
+      "city": "Kisaran",
+      "mapLink": "https://maps.app.goo.gl/4AXeHWwWPnZojTTu6?g_st=ipc",
+      "latitude": null,
+      "longitude": null,
+      "address": "Jl. Imam Bonjol No.149 Lt.3, Kisaran Kota, Kec. Kota Kisaran Timur, Kabupaten Asahan, Sumatera Utara",
+      "rating": "4,5",
+      "ticketPrice": "Rp.40.000-55.000",
+      "totalStudios": "4",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
+          "title": "Pangku",
+          "director": "Reza Rahadian",
+          "genres": [
+            "Drama"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Hermes XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Plaza XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
+          "durationMinutes": "120 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
+          "title": "Now You See Me: Now You Dont",
+          "director": "Ruben Fleischer",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Cinepolis Sun Plaza"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Premiere",
+            "Reguler 2D",
+            "VIP 2D"
+          ],
+          "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
+          "durationMinutes": "112 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
+          "title": "Predator: Badlands",
+          "director": "Dan Trachtenberg",
+          "genres": [
+            "Alien Invasion",
+            "Science Fiction"
+          ],
+          "cinemas": [
+            "Cambridge City Square XXI",
+            "Cinema XXI Centre Point",
+            "Cinepolis Binjai SuperMall",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Sun Plaza",
+            "Delipark XXI",
+            "Irian Kisaran XXI",
+            "Ringroad Citywalks XXI",
+            "Thamrin Plaza Cinema XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
+          "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
+          "durationMinutes": "107 Menit"
+        }
+      ]
+    },
+    {
+      "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Suzuya_Tanjung_Morawa_XXI",
+      "name": "Suzuya Tanjung Morawa XXI",
+      "city": "Deli Serdang",
+      "mapLink": "https://maps.app.goo.gl/QyjPDVd3YjnKDJjp9?g_st=ipc",
+      "latitude": 3.52689,
+      "longitude": 98.79617,
+      "address": "Jl. Medan - Lubuk Pakam Dsn IV No. Km. 17.5, Tj. Morawa A, Kec. Tj. Morawa, Kabupaten Deli Serdang, Sumatera Utara",
+      "rating": "4,4",
+      "ticketPrice": "Rp.40.000-55.000",
+      "totalStudios": "4",
+      "movies": [
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
+          "title": "Pesugihan Sate Gagak",
+          "director": "Dono Pradana",
+          "genres": [
+            "Comedy",
+            "Horor"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Medan Fair Plaza",
+            "Cinepolis Siantar City Square",
+            "Irian Kisaran XXI",
+            "Manhattan Times Square XXI",
+            "Millennium ICT Center XXI",
+            "Ringroad Citywalks XXI",
+            "Suzuya Merdeka Mall Siantar XXI",
+            "Suzuya Plaza XXI",
+            "Suzuya Tanjung Morawa XXI"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
+          "durationMinutes": "105 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
+          "title": "Sosok Ketiga: Lintrik",
+          "director": "Fajar Nugros",
+          "genres": [
+            "Horor"
+          ],
+          "cinemas": [],
+          "ageRating": "17+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
+          "durationMinutes": "117 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
+          "title": "Sampai Titik Terakhirmu",
+          "director": "Dinna Jasanti",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "Cinema XXI Centre Point"
+          ],
+          "ageRating": "13+",
+          "screenTypes": [
+            "Reguler 2D"
+          ],
+          "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
+          "durationMinutes": "114 Menit"
+        },
+        {
+          "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
+          "title": "Dopamin",
+          "director": "Teddy Soeria Atmadja",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "cinemas": [
+            "CGV Focal Point",
+            "Cinema XXI Centre Point",
+            "Cinepolis Lippo Plaza",
+            "Cinepolis Sun Plaza",
+            "Hermes XXI",
+            "Ringroad Citywalks XXI"
+          ],
+          "ageRating": "17+",
+          "screenTypes": [],
+          "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
+          "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
+          "durationMinutes": "94 Menit"
+        }
+      ]
+    }
+  ]
+}

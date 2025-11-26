@@ -1,0 +1,1045 @@
+@prefix : <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/> .
+
+<http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/directedBy
+:directedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain :Movie ;
+            rdfs:range :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/genreOf
+:genreOf rdf:type owl:ObjectProperty ;
+         owl:inverseOf :hasGenre ;
+         rdfs:domain :Genre ;
+         rdfs:range :Movie .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/hasCinema
+:hasCinema rdf:type owl:ObjectProperty ;
+           owl:inverseOf :locatedInCity ;
+           rdfs:domain :City ;
+           rdfs:range :Cinema .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/hasGenre
+:hasGenre rdf:type owl:ObjectProperty ;
+          rdfs:domain :Movie ;
+          rdfs:range :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/locatedInCity
+:locatedInCity rdf:type owl:ObjectProperty ;
+               rdfs:domain :Cinema ;
+               rdfs:range :City .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/playedInCinema
+:playedInCinema rdf:type owl:ObjectProperty ;
+                owl:inverseOf :showsMovie ;
+                rdfs:domain :Movie ;
+                rdfs:range :Cinema .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/ratedFor
+:ratedFor rdf:type owl:ObjectProperty ;
+          rdfs:domain :Movie ;
+          rdfs:range :RateAge .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/showsMovie
+:showsMovie rdf:type owl:ObjectProperty ;
+            rdfs:domain :Cinema ;
+            rdfs:range :Movie .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/usesScreenType
+:usesScreenType rdf:type owl:ObjectProperty ;
+                rdfs:domain :Movie ;
+                rdfs:range :ScreenType .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#mapLink
+:mapLink rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Casts
+:Casts rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Latitude
+:Latitude rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Longitude
+:Longitude rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sinopsis
+:Sinopsis rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/cinemaAddress
+:cinemaAddress rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/cinemaRating
+:cinemaRating rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/durationMinutes
+:durationMinutes rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/ticketPrice
+:ticketPrice rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/totalStudios
+:totalStudios rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinema
+:Cinema rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/City
+:City rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Director
+:Director rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Genre
+:Genre rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Movie
+:Movie rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/RateAge
+:RateAge rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/ScreenType
+:ScreenType rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+
+<http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> rdf:type owl:NamedIndividual ,
+                                                                                :RateAge .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#17+
+<http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#17+> rdf:type owl:NamedIndividual ,
+                                                                                :RateAge .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#21+
+<http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#21+> rdf:type owl:NamedIndividual ,
+                                                                                :RateAge .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/AFTERSUN
+:AFTERSUN rdf:type owl:NamedIndividual ,
+                   :Movie ;
+          :directedBy :Charlotte_Wells ;
+          :hasGenre :Drama ;
+          :playedInCinema :Cinepolis_Lippo_Plaza ;
+          :ratedFor :SU ;
+          :usesScreenType :Reguler_2D ;
+          :Casts "Paul Mescal, Frankie Corio, Celia Rawlson-Hall" ;
+          :Sinopsis "https://id.wikipedia.org/wiki/Aftersun" ;
+          :durationMinutes "103 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Action
+:Action rdf:type owl:NamedIndividual ,
+                 :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Adventure
+:Adventure rdf:type owl:NamedIndividual ,
+                    :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Air_Mata_Diujung_Sajadah_2
+:Air_Mata_Diujung_Sajadah_2 rdf:type owl:NamedIndividual ,
+                                     :Movie ;
+                            :directedBy :Key_Mangunsong ;
+                            :hasGenre :Drama ;
+                            :playedInCinema :Manhattan_Times_Square_XXI ;
+                            :ratedFor :SU ;
+                            :usesScreenType :Reguler_2D ;
+                            :Casts "Daffa Wardhana, Fedi Nuril, Citra Kirana, Muhammad Faqih Alaydrus, Titi Kamal, Jenny Rachman" ;
+                            :Sinopsis "https://id.wikipedia.org/wiki/Air_Mata_di_Ujung_Sajadah_2" ;
+                            :durationMinutes "105 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Alien_Invasion
+:Alien_Invasion rdf:type owl:NamedIndividual ,
+                         :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Animation
+:Animation rdf:type owl:NamedIndividual ,
+                    :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Binjai
+:Binjai rdf:type owl:NamedIndividual ,
+                 :City ;
+        :hasCinema :Cinepolis_Binjai_SuperMall .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/CGV_Focal_Point
+:CGV_Focal_Point rdf:type owl:NamedIndividual ,
+                          :Cinema ;
+                 :locatedInCity :Medan ;
+                 :showsMovie :Dopamin ,
+                             :My_Boo ,
+                             :Pangku ,
+                             :Pesugihan_Sate_Gagak ,
+                             :Sampai_Titik_Terakhirmu ,
+                             :The_Legend_of_Hei_2 ,
+                             :Now_You_See_Me:_Now_You_Dont ,
+                             :Sosok_Ketiga:_Lintrik ;
+                 :mapLink "https://maps.app.goo.gl/C8S9gcZcdEu1EVir9" ;
+                 :Latitude 3.5673927 ;
+                 :Longitude 98.6259278 ;
+                 :cinemaAddress "Lt.3 Focal Point Medan, Jl. Ring Road, Asam Kumbang, Kec. Medan Selayang, Kota Medan, Sumatera Utara" ;
+                 :cinemaRating "4,6" ;
+                 :ticketPrice "Rp.35.000-50.000" ;
+                 :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cambridge_City_Square_XXI
+:Cambridge_City_Square_XXI rdf:type owl:NamedIndividual ,
+                                    :Cinema ;
+                           :locatedInCity :Medan ;
+                           :showsMovie :Sampai_Titik_Terakhirmu ,
+                                       :The_First_Ride ,
+                                       :The_Running_Man ,
+                                       :Now_You_See_Me:_Now_You_Dont ,
+                                       :Predator:_Badlands ;
+                           :mapLink "https://maps.app.goo.gl/vmC5fXYyfsHzxWHc6" ;
+                           :Latitude 3.5847789 ;
+                           :Longitude 98.6670795 ;
+                           :cinemaAddress "Jl. S. Parman, Petisah Tengah, Kec. Medan Petisah, Kota Medan, Sumatera Utara" ;
+                           :cinemaRating "4,6" ;
+                           :ticketPrice "Rp.40.000-150.000" ;
+                           :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Charlotte_Wells
+:Charlotte_Wells rdf:type owl:NamedIndividual ,
+                          :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Chiska_Doppert
+:Chiska_Doppert rdf:type owl:NamedIndividual ,
+                         :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinema_XXI_Centre_Point
+:Cinema_XXI_Centre_Point rdf:type owl:NamedIndividual ,
+                                  :Cinema ;
+                         :locatedInCity :Medan ;
+                         :showsMovie :Dopamin ,
+                                     :My_Boo ,
+                                     :Pangku ,
+                                     :Pesugihan_Sate_Gagak ,
+                                     :Sampai_Titik_Terakhirmu ,
+                                     :The_Running_Man ,
+                                     :Now_You_See_Me:_Now_You_Dont ,
+                                     :Predator:_Badlands ,
+                                     :Sosok_Ketiga:_Lintrik ;
+                         :mapLink "https://maps.app.goo.gl/PYRa9hdBbNp2BeZZA" ;
+                         :Latitude 3.589242 ;
+                         :Longitude 98.673522 ;
+                         :cinemaAddress "Jl. Jawa No.8, Gg. Buntu, Kec. Medan Timur, Kota Medan" ;
+                         :cinemaRating "4,6" ;
+                         :ticketPrice "Rp.50.000- 65.000" ;
+                         :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Binjai_SuperMall
+:Cinepolis_Binjai_SuperMall rdf:type owl:NamedIndividual ,
+                                     :Cinema ;
+                            :locatedInCity :Binjai ;
+                            :showsMovie :Paradise_at_Mother_Feet ,
+                                        :Sampai_Titik_Terakhirmu ,
+                                        :The_Running_Man ,
+                                        :Now_You_See_Me:_Now_You_Dont ,
+                                        :Predator:_Badlands ,
+                                        :Sosok_Ketiga:_Lintrik ;
+                            :mapLink "https://maps.app.goo.gl/cNPHt1V7oGbULhLYA" ;
+                            :Latitude 3.60785 ;
+                            :Longitude 98.49621 ;
+                            :cinemaAddress "Jl. Soekarno Hatta No.14, Timbang Langkat, Kec. Binjai Timur, Kota Binjai, Sumatera Utara" ;
+                            :cinemaRating "4,4" ;
+                            :ticketPrice "Rp. 42.000-62.000" ;
+                            :totalStudios "4" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Lippo_Plaza
+:Cinepolis_Lippo_Plaza rdf:type owl:NamedIndividual ,
+                                :Cinema ;
+                       :locatedInCity :Medan ;
+                       :showsMovie :AFTERSUN ,
+                                   :Dopamin ,
+                                   :My_Boo ,
+                                   :Pangku ,
+                                   :Sampai_Titik_Terakhirmu ,
+                                   :Tak_Kenal_Maka_Taaruf ,
+                                   :The_Legend_of_Hei_2 ,
+                                   :Wicked ,
+                                   :Now_You_See_Me:_Now_You_Dont ,
+                                   :Predator:_Badlands ;
+                       :mapLink "https://maps.app.goo.gl/RV31DFSMVLyU8bp18" ;
+                       :Latitude 3.58649 ;
+                       :Longitude 98.67332 ;
+                       :cinemaAddress "Jl. Imam Bonjol No.6, Petisah Tengah, Kec. Medan Petisah, Kota Medan, Sumatera Utara" ;
+                       :cinemaRating "4,4" ;
+                       :ticketPrice "Rp. 40.000-47.000" ;
+                       :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Medan_Fair_Plaza
+:Cinepolis_Medan_Fair_Plaza rdf:type owl:NamedIndividual ,
+                                     :Cinema ;
+                            :locatedInCity :Medan ;
+                            :showsMovie :Dopamin ,
+                                        :Pangku ,
+                                        :Paradise_at_Mother_Feet ,
+                                        :Pesugihan_Sate_Gagak ,
+                                        :Sampai_Titik_Terakhirmu ,
+                                        :Now_You_See_Me:_Now_You_Dont ,
+                                        :Predator:_Badlands ,
+                                        :Sosok_Ketiga:_Lintrik ;
+                            :mapLink "https://maps.app.goo.gl/82gEMEEkocnFybbr7" ;
+                            :Latitude 3.59340 ;
+                            :Longitude 98.66439 ;
+                            :cinemaAddress "Jl. Gatot Subroto No.30, Sekip, Medan Petisah, Sekip, Medan Petisah, Kota Medan, Sumatera Utara" ;
+                            :cinemaRating "4,4" ;
+                            :ticketPrice "Rp.44.000-54.000" ;
+                            :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Siantar_City_Square
+:Cinepolis_Siantar_City_Square rdf:type owl:NamedIndividual ,
+                                        :Cinema ;
+                               :locatedInCity :Pematang_Siantar ;
+                               :showsMovie :Dopamin ,
+                                           :Pangku ,
+                                           :Pesugihan_Sate_Gagak ,
+                                           :Sampai_Titik_Terakhirmu ,
+                                           :The_Running_Man ,
+                                           :Now_You_See_Me:_Now_You_Dont ,
+                                           :Sosok_Ketiga:_Lintrik ;
+                               :mapLink "https://maps.app.goo.gl/y79o9cDbgrT2jHHF7" ;
+                               :Latitude 2.98807 ;
+                               :Longitude 99.08132 ;
+                               :cinemaAddress "Jl. Raya Medan no 88, Martoba, Kecamatan siantar utara, Naga Pita, Kota Pematang Siantar, Sumatera Utara , Pematang Siantar." ;
+                               :cinemaRating "4,3" ;
+                               :ticketPrice "Rp.45.000-57.000" ;
+                               :totalStudios "4" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Cinepolis_Sun_Plaza
+:Cinepolis_Sun_Plaza rdf:type owl:NamedIndividual ,
+                              :Cinema ;
+                     :locatedInCity :Medan ;
+                     :showsMovie :Dopamin ,
+                                 :Pangku ,
+                                 :Paradise_at_Mother_Feet ,
+                                 :Sampai_Titik_Terakhirmu ,
+                                 :Wicked ,
+                                 :Predator:_Badlands ,
+                                 :Sosok_Ketiga:_Lintrik ;
+                     :mapLink "https://maps.app.goo.gl/ZY7GQdcuS3yx3aip6" ;
+                     :Latitude 3.581239 ;
+                     :Longitude 98.67105 ;
+                     :cinemaAddress "Jl. KH. Zainul Arifin No.7, Madras Hulu, Kec. Medan Polonia" ;
+                     :cinemaRating "4,6" ;
+                     :ticketPrice "Rp. 69.000,00-150.000" ;
+                     :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Comedy
+:Comedy rdf:type owl:NamedIndividual ,
+                 :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Crime
+:Crime rdf:type owl:NamedIndividual ,
+                :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dan_Trachtenberg
+:Dan_Trachtenberg rdf:type owl:NamedIndividual ,
+                           :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Deli_Serdang
+:Deli_Serdang rdf:type owl:NamedIndividual ,
+                       :City ;
+              :hasCinema :Suzuya_Tanjung_Morawa_XXI .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Delipark_XXI
+:Delipark_XXI rdf:type owl:NamedIndividual ,
+                       :Cinema ;
+              :locatedInCity :Medan ;
+              :showsMovie :Pangku ,
+                          :Sampai_Titik_Terakhirmu ,
+                          :The_Running_Man ,
+                          :Now_You_See_Me:_Now_You_Dont ,
+                          :Sosok_Ketiga:_Lintrik ;
+              :mapLink "https://maps.app.goo.gl/SMgAD3sMrh5mhyH18" ;
+              :Latitude "3.5934840" ;
+              :Longitude "98.67356845" ;
+              :cinemaAddress "Jln. Guru Patimpus Blok OPQ No. 1, Kesawan, Kec. Medan Barat, Medan, Sumatera Utara" ;
+              :cinemaRating "4,5" ;
+              :ticketPrice "Rp. 50.000-150.000" ;
+              :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dinna_Jasanti
+:Dinna_Jasanti rdf:type owl:NamedIndividual ,
+                        :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dono_Pradana
+:Dono_Pradana rdf:type owl:NamedIndividual ,
+                       :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin
+:Dopamin rdf:type owl:NamedIndividual ,
+                  :Movie ;
+         :directedBy :Teddy_Soeria_Atmadja ;
+         :hasGenre :Drama ,
+                   :Romance ;
+         :playedInCinema :CGV_Focal_Point ,
+                         :Cinema_XXI_Centre_Point ,
+                         :Cinepolis_Lippo_Plaza ,
+                         :Cinepolis_Sun_Plaza ,
+                         :Hermes_XXI ,
+                         :Ringroad_Citywalks_XXI ;
+         :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#17+> ;
+         :Casts "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang" ;
+         :Sinopsis "https://id.wikipedia.org/wiki/Dopamin_(film)" ;
+         :durationMinutes "94 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Drama
+:Drama rdf:type owl:NamedIndividual ,
+                :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Edgar_Wright
+:Edgar_Wright rdf:type owl:NamedIndividual ,
+                       :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Etienne_Caesar
+:Etienne_Caesar rdf:type owl:NamedIndividual ,
+                         :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Fajar_Bustomi
+:Fajar_Bustomi rdf:type owl:NamedIndividual ,
+                        :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Fajar_Nugros
+:Fajar_Nugros rdf:type owl:NamedIndividual ,
+                       :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Fantasy
+:Fantasy rdf:type owl:NamedIndividual ,
+                  :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Hermes_XXI
+:Hermes_XXI rdf:type owl:NamedIndividual ,
+                     :Cinema ;
+            :locatedInCity :Medan ;
+            :showsMovie :Dopamin ,
+                        :Pangku ,
+                        :Wicked ,
+                        :Now_You_See_Me:_Now_You_Dont ,
+                        :Sosok_Ketiga:_Lintrik ;
+            :mapLink "https://maps.app.goo.gl/wtjjiU1iCG5J6KHb6" ;
+            :Latitude 3.57076 ;
+            :Longitude 98.66615 ;
+            :cinemaAddress "Jl. Mongonsidi No.45, Polonia, Kec. Medan Polonia, Kota Medan, Sumatera Utara" ;
+            :cinemaRating "4,4" ;
+            :ticketPrice "Rp. 35.000-40.000" ;
+            :totalStudios "4" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Horor
+:Horor rdf:type owl:NamedIndividual ,
+                :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Imax_2D
+:Imax_2D rdf:type owl:NamedIndividual ,
+                  :ScreenType .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Irian_Kisaran_XXI
+:Irian_Kisaran_XXI rdf:type owl:NamedIndividual ,
+                            :Cinema ;
+                   :locatedInCity :Kisaran ;
+                   :showsMovie :Dopamin ,
+                               :Pangku ,
+                               :Pesugihan_Sate_Gagak ,
+                               :Sampai_Titik_Terakhirmu ,
+                               :Now_You_See_Me:_Now_You_Dont ,
+                               :Predator:_Badlands ,
+                               :Sosok_Ketiga:_Lintrik ;
+                   :mapLink "https://maps.app.goo.gl/4AXeHWwWPnZojTTu6?g_st=ipc" ;
+                   :cinemaAddress "Jl. Imam Bonjol No.149 Lt.3, Kisaran Kota, Kec. Kota Kisaran Timur, Kabupaten Asahan, Sumatera Utara" ;
+                   :cinemaRating "4,5" ;
+                   :ticketPrice "Rp.40.000-55.000" ;
+                   :totalStudios "4" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Jie_Gu
+:Jie_Gu rdf:type owl:NamedIndividual ,
+                 :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Jon_M._Chu
+:Jon_M._Chu rdf:type owl:NamedIndividual ,
+                     :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Junior_2D
+:Junior_2D rdf:type owl:NamedIndividual ,
+                    :ScreenType .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Key_Mangunsong
+:Key_Mangunsong rdf:type owl:NamedIndividual ,
+                         :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Khomkrit_Treewimol
+:Khomkrit_Treewimol rdf:type owl:NamedIndividual ,
+                             :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Kisaran
+:Kisaran rdf:type owl:NamedIndividual ,
+                  :City ;
+         :hasCinema :Irian_Kisaran_XXI .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Maju_Serem_Mundur_Horor
+:Maju_Serem_Mundur_Horor rdf:type owl:NamedIndividual ,
+                                  :Movie ;
+                         :directedBy :Chiska_Doppert ;
+                         :hasGenre :Comedy ,
+                                   :Drama ,
+                                   :Horor ;
+                         :playedInCinema :Suzuya_Plaza_XXI ;
+                         :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                         :usesScreenType :Reguler_2D ;
+                         :Casts "Sara Wijayanto, Carissa Perusset, Dodit Mulyanto, Sara Fajira, Daffa Ariq, Yewen, Gary M. Iskak, Kanaya Gleadys, Maell Lee, Ruhut Sitompul" ;
+                         :durationMinutes "91 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Manhattan_Times_Square_XXI
+:Manhattan_Times_Square_XXI rdf:type owl:NamedIndividual ,
+                                     :Cinema ;
+                            :locatedInCity :Medan ;
+                            :showsMovie :Air_Mata_Diujung_Sajadah_2 ,
+                                        :Pesugihan_Sate_Gagak ,
+                                        :Sampai_Titik_Terakhirmu ,
+                                        :The_Running_Man ,
+                                        :Now_You_See_Me:_Now_You_Dont ,
+                                        :Sosok_Ketiga:_Lintrik ;
+                            :mapLink "https://maps.app.goo.gl/ERSHSdf4uBjKiX5L7" ;
+                            :Latitude 3.5830 ;
+                            :Longitude 98.6344 ;
+                            :cinemaAddress "Jl. Gatot Subroto No.21, Sei Sikambing B, Kec. Medan Sunggal" ;
+                            :cinemaRating "4,6" ;
+                            :ticketPrice "Rp. 35.000-50.000" ;
+                            :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Medan
+:Medan rdf:type owl:NamedIndividual ,
+                :City ;
+       :hasCinema :CGV_Focal_Point ,
+                  :Cambridge_City_Square_XXI ,
+                  :Cinema_XXI_Centre_Point ,
+                  :Cinepolis_Lippo_Plaza ,
+                  :Cinepolis_Medan_Fair_Plaza ,
+                  :Cinepolis_Sun_Plaza ,
+                  :Delipark_XXI ,
+                  :Hermes_XXI ,
+                  :Manhattan_Times_Square_XXI ,
+                  :Millennium_ICT_Center_XXI ,
+                  :Ringroad_Citywalks_XXI ,
+                  :Suzuya_Plaza_XXI ,
+                  :Thamrin_Plaza_Cinema_XXI .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Michael_Shanks
+:Michael_Shanks rdf:type owl:NamedIndividual ,
+                         :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Millennium_ICT_Center_XXI
+:Millennium_ICT_Center_XXI rdf:type owl:NamedIndividual ,
+                                    :Cinema ;
+                           :locatedInCity :Medan ;
+                           :showsMovie :Dopamin ,
+                                       :Pesugihan_Sate_Gagak ,
+                                       :Sampai_Titik_Terakhirmu ,
+                                       :Sosok_Ketiga:_Lintrik ;
+                           :mapLink "https://maps.app.goo.gl/ctWv5XbWrmCswQhP6" ;
+                           :Latitude 3.59945 ;
+                           :Longitude 98.64455 ;
+                           :cinemaAddress "Jl. Kapten Muslim No. 111 Dwikora, Medan Helvetia, Kota Medan Sumatera Utara" ;
+                           :cinemaRating "4,4" ;
+                           :ticketPrice "Rp.35.000-40.000" ;
+                           :totalStudios "5" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo
+:My_Boo rdf:type owl:NamedIndividual ,
+                 :Movie ;
+        :directedBy :Khomkrit_Treewimol ;
+        :hasGenre :Romance ;
+        :playedInCinema :CGV_Focal_Point ,
+                        :Cinema_XXI_Centre_Point ,
+                        :Cinepolis_Lippo_Plaza ,
+                        :Ringroad_Citywalks_XXI ;
+        :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#17+> ;
+        :usesScreenType :Reguler_2D ;
+        :Casts "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn" ;
+        :durationMinutes "117 menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Nam_Dae-joong
+:Nam_Dae-joong rdf:type owl:NamedIndividual ,
+                        :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku
+:Pangku rdf:type owl:NamedIndividual ,
+                 :Movie ;
+        :directedBy :Reza_Rahadian ;
+        :hasGenre :Drama ;
+        :playedInCinema :CGV_Focal_Point ,
+                        :Cinema_XXI_Centre_Point ,
+                        :Cinepolis_Lippo_Plaza ,
+                        :Cinepolis_Siantar_City_Square ,
+                        :Cinepolis_Sun_Plaza ,
+                        :Delipark_XXI ,
+                        :Hermes_XXI ,
+                        :Irian_Kisaran_XXI ,
+                        :Ringroad_Citywalks_XXI ,
+                        :Suzuya_Plaza_XXI ,
+                        :Thamrin_Plaza_Cinema_XXI ;
+        :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#17+> ;
+        :usesScreenType :Reguler_2D ;
+        :Casts "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga." ;
+        :Sinopsis "https://id.wikipedia.org/wiki/Pangku_(film)" ;
+        :durationMinutes "120 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Paradise_at_Mother_Feet
+:Paradise_at_Mother_Feet rdf:type owl:NamedIndividual ,
+                                  :Movie ;
+                         :directedBy :Ruslan_Akun ;
+                         :playedInCinema :Cinepolis_Binjai_SuperMall ,
+                                         :Cinepolis_Medan_Fair_Plaza ,
+                                         :Cinepolis_Sun_Plaza ;
+                         :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                         :usesScreenType :Reguler_2D ;
+                         :Casts "Emil Esenaliev, Anarkul Nazarkulova, Bolot Tentimyshov" ;
+                         :durationMinutes "131 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pematang_Siantar
+:Pematang_Siantar rdf:type owl:NamedIndividual ,
+                           :City ;
+                  :hasCinema :Cinepolis_Siantar_City_Square ,
+                             :Suzuya_Merdeka_Mall_Siantar_XXI .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak
+:Pesugihan_Sate_Gagak rdf:type owl:NamedIndividual ,
+                               :Movie ;
+                      :directedBy :Dono_Pradana ,
+                                  :Etienne_Caesar ;
+                      :hasGenre :Comedy ,
+                                :Horor ;
+                      :playedInCinema :CGV_Focal_Point ,
+                                      :Cinema_XXI_Centre_Point ,
+                                      :Cinepolis_Medan_Fair_Plaza ,
+                                      :Cinepolis_Siantar_City_Square ,
+                                      :Irian_Kisaran_XXI ,
+                                      :Manhattan_Times_Square_XXI ,
+                                      :Millennium_ICT_Center_XXI ,
+                                      :Ringroad_Citywalks_XXI ,
+                                      :Suzuya_Merdeka_Mall_Siantar_XXI ,
+                                      :Suzuya_Plaza_XXI ,
+                                      :Suzuya_Tanjung_Morawa_XXI ;
+                      :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                      :usesScreenType :Reguler_2D ;
+                      :Casts "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu" ;
+                      :Sinopsis "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak" ;
+                      :durationMinutes "105 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Premiere
+:Premiere rdf:type owl:NamedIndividual ,
+                   :ScreenType .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Reguler_2D
+:Reguler_2D rdf:type owl:NamedIndividual ,
+                     :ScreenType .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Religi
+:Religi rdf:type owl:NamedIndividual ,
+                 :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Reza_Rahadian
+:Reza_Rahadian rdf:type owl:NamedIndividual ,
+                        :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Ringroad_Citywalks_XXI
+:Ringroad_Citywalks_XXI rdf:type owl:NamedIndividual ,
+                                 :Cinema ;
+                        :locatedInCity :Medan ;
+                        :showsMovie :Dopamin ,
+                                    :My_Boo ,
+                                    :Pesugihan_Sate_Gagak ,
+                                    :Sampai_Titik_Terakhirmu ,
+                                    :The_Running_Man ,
+                                    :Predator:_Badlands ,
+                                    :Sosok_Ketiga:_Lintrik ;
+                        :mapLink "https://maps.app.goo.gl/97tf2BezeZJDv4d57" ;
+                        :Latitude 3.5755390 ;
+                        :Longitude 98.6258600 ;
+                        :cinemaAddress "Jl. Gagak Hitam No.28, Medan Sunggal, Medan, Sumatera Utara" ;
+                        :cinemaRating "4,5" ;
+                        :ticketPrice "Rp.50.000-65.000" ;
+                        :totalStudios "6" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Romance
+:Romance rdf:type owl:NamedIndividual ,
+                  :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Ruben_Fleischer
+:Ruben_Fleischer rdf:type owl:NamedIndividual ,
+                          :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Ruslan_Akun
+:Ruslan_Akun rdf:type owl:NamedIndividual ,
+                      :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/SU
+:SU rdf:type owl:NamedIndividual ,
+             :RateAge .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu
+:Sampai_Titik_Terakhirmu rdf:type owl:NamedIndividual ,
+                                  :Movie ;
+                         :directedBy :Dinna_Jasanti ;
+                         :hasGenre :Drama ,
+                                   :Romance ;
+                         :playedInCinema :Cinema_XXI_Centre_Point ;
+                         :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                         :usesScreenType :Reguler_2D ;
+                         :Casts "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti." ;
+                         :Sinopsis "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)" ;
+                         :durationMinutes "114 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Science_Fiction
+:Science_Fiction rdf:type owl:NamedIndividual ,
+                          :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Suzuya_Merdeka_Mall_Siantar_XXI
+:Suzuya_Merdeka_Mall_Siantar_XXI rdf:type owl:NamedIndividual ,
+                                          :Cinema ;
+                                 :locatedInCity :Pematang_Siantar ;
+                                 :showsMovie :Dopamin ,
+                                             :Pesugihan_Sate_Gagak ,
+                                             :Sampai_Titik_Terakhirmu ,
+                                             :Now_You_See_Me:_Now_You_Dont ,
+                                             :Sosok_Ketiga:_Lintrik ;
+                                 :mapLink "https://maps.app.goo.gl/mnNfuRR3rGPRRuZa6?g_st=ipc" ;
+                                 :Latitude 2.958564 ;
+                                 :Longitude 99.066497 ;
+                                 :cinemaAddress "Jl. Merdeka No. 375, Pardomuan, Kec. Siantar Timur, Kota Pematang Siantar, Sumatera Utara" ;
+                                 :cinemaRating "4,9" ;
+                                 :ticketPrice "Rp.40.000-55.000" ;
+                                 :totalStudios "4" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Suzuya_Plaza_XXI
+:Suzuya_Plaza_XXI rdf:type owl:NamedIndividual ,
+                           :Cinema ;
+                  :locatedInCity :Medan ;
+                  :showsMovie :Dopamin ,
+                              :Maju_Serem_Mundur_Horor ,
+                              :Pangku ,
+                              :Pesugihan_Sate_Gagak ,
+                              :Sampai_Titik_Terakhirmu ,
+                              :Now_You_See_Me:_Now_You_Dont ,
+                              :Sosok_Ketiga:_Lintrik ;
+                  :mapLink "https://maps.app.goo.gl/qCqXonbcaYmHYX3G8" ;
+                  :Latitude 3.67838 ;
+                  :Longitude 98.65718 ;
+                  :cinemaAddress "Jl. Marelan Raya No.207 Lt.3, Tanah Enam Ratus, Kec. Medan Marelan, Kota Medan, Sumatera Utara" ;
+                  :cinemaRating "4,4" ;
+                  :ticketPrice "Rp.40.000-50.000" ;
+                  :totalStudios "4" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Suzuya_Tanjung_Morawa_XXI
+:Suzuya_Tanjung_Morawa_XXI rdf:type owl:NamedIndividual ,
+                                    :Cinema ;
+                           :locatedInCity :Deli_Serdang ;
+                           :showsMovie :Dopamin ,
+                                       :Pesugihan_Sate_Gagak ,
+                                       :Sampai_Titik_Terakhirmu ,
+                                       :Sosok_Ketiga:_Lintrik ;
+                           :mapLink "https://maps.app.goo.gl/QyjPDVd3YjnKDJjp9?g_st=ipc" ;
+                           :Latitude 3.52689 ;
+                           :Longitude 98.79617 ;
+                           :cinemaAddress "Jl. Medan - Lubuk Pakam Dsn IV No. Km. 17.5, Tj. Morawa A, Kec. Tj. Morawa, Kabupaten Deli Serdang, Sumatera Utara" ;
+                           :cinemaRating "4,4" ;
+                           :ticketPrice "Rp.40.000-55.000" ;
+                           :totalStudios "4" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Tak_Kenal_Maka_Taaruf
+:Tak_Kenal_Maka_Taaruf rdf:type owl:NamedIndividual ,
+                                :Movie ;
+                       :directedBy :Fajar_Bustomi ,
+                                   :Toma_Margens ;
+                       :hasGenre :Comedy ,
+                                 :Religi ,
+                                 :Romance ;
+                       :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                       :usesScreenType :Reguler_2D ;
+                       :Casts "Fadi Alaydrus, Saskia chadwick, Dinda Mahira, Shandy William, Ika Diharjo, Ina Marika, Kheyla Afzah, Avit Arie, Ghina Nisa Salsabiela, Maghara Adipura, Cahya Arunagara, Tania Anjani" ;
+                       :Sinopsis "https://id.wikipedia.org/wiki/Tak_Kenal_Maka_Taaruf" ;
+                       :durationMinutes "99 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Teddy_Soeria_Atmadja
+:Teddy_Soeria_Atmadja rdf:type owl:NamedIndividual ,
+                               :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Thamrin_Plaza_Cinema_XXI
+:Thamrin_Plaza_Cinema_XXI rdf:type owl:NamedIndividual ,
+                                   :Cinema ;
+                          :locatedInCity :Medan ;
+                          :showsMovie :Dopamin ,
+                                      :Pangku ,
+                                      :Sampai_Titik_Terakhirmu ,
+                                      :Now_You_See_Me:_Now_You_Dont ,
+                                      :Predator:_Badlands ,
+                                      :Sosok_Ketiga:_Lintrik ;
+                          :mapLink "https://maps.app.goo.gl/yS4f7S9Yxn53exoT7" ;
+                          :Latitude 3.58652 ;
+                          :Longitude 98.69179 ;
+                          :cinemaAddress "Thamrin Plaza Lantai 7 Jalan MH Thamrin No.75R Medan Kota Pandau Hulu I, Sei Rengas II, Kec. Medan Area, Kota Medan, Sumatera Utara" ;
+                          :cinemaRating "4,5" ;
+                          :ticketPrice "Rp. 40.000-50.000" ;
+                          :totalStudios "4" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_First_Ride
+:The_First_Ride rdf:type owl:NamedIndividual ,
+                         :Movie ;
+                :directedBy :Nam_Dae-joong ;
+                :hasGenre :Adventure ,
+                          :Comedy ;
+                :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                :usesScreenType :Reguler_2D ;
+                :Casts "Kang Ha-neul, Kim Young-kwang, Cha Eun Woo, Kang Young-suk, Han Seon-hwa" ;
+                :Sinopsis "https://id.wikipedia.org/wiki/The_First_Ride" ;
+                :durationMinutes "116 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Legend_of_Hei_2
+:The_Legend_of_Hei_2 rdf:type owl:NamedIndividual ,
+                              :Movie ;
+                     :directedBy :Jie_Gu ;
+                     :hasGenre :Animation ;
+                     :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                     :usesScreenType :Reguler_2D ;
+                     :Casts "Xin Shan, Chenyang Fu, Seth Fuentes, Zhenji Huang, Lu Li, Mingyue Liu, Eric Yang" ;
+                     :Sinopsis "https://id.wikipedia.org/wiki/The_Legend_of_Hei_II" ;
+                     :durationMinutes "120 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man
+:The_Running_Man rdf:type owl:NamedIndividual ,
+                          :Movie ;
+                 :directedBy :Edgar_Wright ;
+                 :hasGenre :Action ,
+                           :Adventure ,
+                           :Comedy ,
+                           :Science_Fiction ,
+                           :Thriller ;
+                 :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#17+> ;
+                 :usesScreenType :Premiere ,
+                                 :Reguler_2D ;
+                 :Casts "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi" ;
+                 :Sinopsis "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)" ;
+                 :durationMinutes "133 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Thriller
+:Thriller rdf:type owl:NamedIndividual ,
+                   :Genre .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Together
+:Together rdf:type owl:NamedIndividual ,
+                   :Movie ;
+          :hasGenre :Comedy ,
+                    :Horor ,
+                    :Romance ,
+                    :Science_Fiction ;
+          :playedInCinema :Cinepolis_Siantar_City_Square ;
+          :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#21+> ;
+          :usesScreenType :Reguler_2D ;
+          :Casts "Dave Franco, Alison Brie, Damon Herriman, Mia Morrissey, Karl Richmond, Jack Kenny, Francesca Waters, Aljin Abella, Sarah Lang, Rob Brown, Ellora Iris, Charlie Lees, MJ Dorning, Tom Considine, Melanie Beddie, Flynn Wandin, Nancy Finn, Mark Robinson" ;
+          :Sinopsis "https://id.wikipedia.org/wiki/Together_(film_2025)" ;
+          :durationMinutes "102 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Toma_Margens
+:Toma_Margens rdf:type owl:NamedIndividual ,
+                       :Director .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/VIP_2D
+:VIP_2D rdf:type owl:NamedIndividual ,
+                 :ScreenType .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Wicked
+:Wicked rdf:type owl:NamedIndividual ,
+                 :Movie ;
+        :directedBy :Jon_M._Chu ;
+        :hasGenre :Fantasy ,
+                  :Romance ;
+        :ratedFor :SU ;
+        :usesScreenType :Junior_2D ,
+                        :Reguler_2D ,
+                        :VIP_2D ;
+        :Casts "Cynthia Erivo, Ariana Grande, Jonathan Bailey, Marissa Bode, Ethan Slater, Michelle Yeoh, Jeff Goldblum, Keala Settle, Bronwyn James, Bowen Yang, Aaron Teoh Guan Ti, Adam James, Colin Michael Carmicha" ;
+        :Sinopsis "https://id.wikipedia.org/wiki/Wicked_(film_2024)" ;
+        :durationMinutes "160 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont
+:Now_You_See_Me:_Now_You_Dont rdf:type owl:NamedIndividual ,
+                                       :Movie ;
+                              :directedBy :Ruben_Fleischer ;
+                              :hasGenre :Crime ,
+                                        :Thriller ;
+                              :playedInCinema :Cambridge_City_Square_XXI ,
+                                              :Cinema_XXI_Centre_Point ,
+                                              :Cinepolis_Binjai_SuperMall ,
+                                              :Cinepolis_Lippo_Plaza ,
+                                              :Cinepolis_Medan_Fair_Plaza ,
+                                              :Cinepolis_Siantar_City_Square ,
+                                              :Cinepolis_Sun_Plaza ;
+                              :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                              :usesScreenType :Premiere ,
+                                              :Reguler_2D ,
+                                              :VIP_2D ;
+                              :Casts "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa" ;
+                              :Sinopsis "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t" ;
+                              :durationMinutes "112 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands
+:Predator:_Badlands rdf:type owl:NamedIndividual ,
+                             :Movie ;
+                    :directedBy :Dan_Trachtenberg ;
+                    :hasGenre :Alien_Invasion ,
+                              :Science_Fiction ;
+                    :playedInCinema :Cambridge_City_Square_XXI ,
+                                    :Cinema_XXI_Centre_Point ,
+                                    :Cinepolis_Binjai_SuperMall ,
+                                    :Cinepolis_Lippo_Plaza ,
+                                    :Cinepolis_Medan_Fair_Plaza ,
+                                    :Cinepolis_Sun_Plaza ,
+                                    :Delipark_XXI ,
+                                    :Irian_Kisaran_XXI ,
+                                    :Ringroad_Citywalks_XXI ,
+                                    :Thamrin_Plaza_Cinema_XXI ;
+                    :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#13+> ;
+                    :usesScreenType :Reguler_2D ;
+                    :Casts "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick" ;
+                    :Sinopsis "https://en.wikipedia.org/wiki/Predator:_Badlands" ;
+                    :durationMinutes "107 Menit" .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik
+:Sosok_Ketiga:_Lintrik rdf:type owl:NamedIndividual ,
+                                :Movie ;
+                       :directedBy :Fajar_Nugros ;
+                       :hasGenre :Horor ;
+                       :ratedFor <http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut#17+> ;
+                       :usesScreenType :Reguler_2D ;
+                       :Casts "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar" ;
+                       :Sinopsis "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik" ;
+                       :durationMinutes "117 Menit" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

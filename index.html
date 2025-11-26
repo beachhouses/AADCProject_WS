@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>AADC – Ada Apa di Cinema?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav-left">
+      <div class="logo-box">AADC</div>
+      <div class="nav-text-group">
+        <div class="nav-title">Ada Apa di Cinema?</div>
+        <div class="nav-subtitle">North Sumatera Cinema Guide</div>
+      </div>
+    </div>
+    <nav class="nav-right">
+      <a href="#nowShowing">Now Showing</a>
+      <a href="#cinemaCategories">Cinema Categories</a>
+      <a href="#citySection">City Categories</a>
+      <button class="nav-search-btn" aria-label="Search">
+        🔍
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="nowShowing">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-badge-row">
+          <span class="hero-badge">NOW SHOWING</span>
+          <span class="hero-badge hero-badge-light" id="heroCinemaName">
+            North Sumatera
+          </span>
+        </div>
+        <h1 class="hero-title" id="heroMovieTitle">
+          Sampai Titik Terakhirmu
+        </h1>
+        <div class="hero-year" id="heroMovieYear">(2025)</div>
+        <p class="hero-desc" id="heroMovieDesc">
+          Temukan film yang sedang tayang di seluruh bioskop favoritmu di
+          Sumatera Utara. Cek jadwal, genre, dan rating usia dalam satu
+          search engine.
+        </p>
+        <div class="hero-buttons">
+          <a href="#searchSection" class="btn-primary">Cari Bioskop</a>
+          <button class="btn-ghost" id="btnExploreMovies">
+            Lihat Semua Film
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-right" id="heroThumbnails">
+        <!-- thumbnail film dinamis dari JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SEARCH SECTION -->
+  <section class="search-section" id="searchSection">
+    <div class="search-wrapper">
+      <h2 class="section-title">Find Your Next Movie Spot!</h2>
+      <p class="section-subtitle">
+        Most Complete Cinema Directory in North Sumatera
+      </p>
+
+      <div class="search-bar-row">
+        <div class="search-input-wrapper">
+          <label for="searchInput">Search for Cinema</label>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Ketik nama bioskop, kota, atau judul film..."
+          />
+        </div>
+
+        <div class="search-select-wrapper" id="citySection">
+          <label for="cityFilter">City</label>
+          <select id="cityFilter">
+            <option value="">All cities</option>
+            <!-- diisi dinamis -->
+          </select>
+        </div>
+
+        <button id="btnSearch" class="btn-search-main">
+          Cari!
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CINEMA GRID SECTION -->
+  <section class="cinema-section" id="cinemaCategories">
+    <h2 class="section-title">
+      Most complete cinema information search engine in North Sumatera
+    </h2>
+    <p class="section-subtitle section-subtitle-small">
+      Jelajahi bioskop di berbagai kota di Sumatera Utara, lengkap dengan
+      informasi alamat, rating, harga tiket, dan daftar film yang sedang tayang.
+    </p>
+
+    <div class="filters-row">
+      <div class="filter-group">
+        <label for="ageFilter">Age Rating</label>
+        <select id="ageFilter">
+          <option value="">All</option>
+          <option value="SU">SU</option>
+          <option value="13+">13+</option>
+          <option value="17+">17+</option>
+          <option value="21+">21+</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="genreFilter">Genre</label>
+        <select id="genreFilter">
+          <option value="">All</option>
+          <!-- diisi dinamis -->
+        </select>
+      </div>
+    </div>
+
+    <div id="cinemaGrid" class="cinema-grid">
+      <div class="empty-state">
+        Loading cinema data from <code>data.json</code>...
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL DETAIL FILM -->
+  <div id="movieModal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalCloseBtn">✕</button>
+      <h3 id="modalCinemaName">Cinema Name</h3>
+      <p class="modal-cinema-meta" id="modalCinemaMeta"></p>
+
+      <div id="modalMoviesList" class="modal-movies-list">
+        <!-- isi film -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2025 AADC — Ada Apa di Cinema? | All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
