@@ -11,6 +11,7 @@
       "rating": "4,5",
       "ticketPrice": "Rp. 50.000-150.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/deliparkxxi.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -38,7 +39,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -57,7 +60,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -73,7 +78,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -100,7 +107,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
@@ -121,7 +130,9 @@
           ],
           "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
-          "durationMinutes": "133 Menit"
+          "durationMinutes": "133",
+          "heroBgUrl": "assets/movies/runningman.jpg",
+          "posterUrl": "assets/movies/runningman.jpg"
         }
       ]
     },
@@ -136,6 +147,7 @@
       "rating": "4,6",
       "ticketPrice": "Rp. 69.000,00-150.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/sun.jpg",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -163,7 +175,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -185,7 +199,10 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "synopsisText":"Film tersebut menceritakan kehidupan rumah tangga pasangan suami istri, Malik dan Alya, yang menjadi kurang harmonis setelah diterpa masalah. Malik terkena PHK dan terjerat hutang, sementara Alya sedang hamil.\n\nSuatu hari, Malik mencoba melamar sebuah pekerjaan tetapi sayangnya dinyatakan gagal sepulang dari wawancara.\n\nKesialannya bertambah ketika mobil Malik mengalami masalah di tengah jalan padahal sedang hujan. Namun, seorang pria asing tiba-tiba saja berhenti di dekat Malik dan menawarkan untuk mengantarkannya pulang ke rumah. Sebagai balas budi, pasutri tersebut meminta si pria itu bermalam ketika sampai di rumah mereka.\n\nKeesokan paginya, alangkah kagetnya Malik dan Alya menemukan pria tersebut terbujur kaku dengan jarum suntik di tangannya. Hal lain yang mengejutkan mereka yakni pria itu meninggalkan koper berisi uang miliaran rupiah. Kehidupan suami istri tersebut langsung berubah tetapi siapa sangka peristiwa itu juga membuat kehidupan mereka dalam bahaya. Malik dan Alya harus mengandalkan satu sama lain agar bisa selamat dari bahaya tersebut.",
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -213,7 +230,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -232,7 +251,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -248,7 +269,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Wicked",
@@ -267,7 +290,9 @@
           ],
           "casts": "Cynthia Erivo, Ariana Grande, Jonathan Bailey, Marissa Bode, Ethan Slater, Michelle Yeoh, Jeff Goldblum, Keala Settle, Bronwyn James, Bowen Yang, Aaron Teoh Guan Ti, Adam James, Colin Michael Carmicha",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Wicked_(film_2024)",
-          "durationMinutes": "160 Menit"
+          "durationMinutes": "160",
+          "heroBgUrl": "assets/movies/wicked.jpg",
+          "posterUrl": "assets/movies/wicked.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Paradise_at_Mother_Feet",
@@ -285,7 +310,9 @@
           ],
           "casts": "Emil Esenaliev, Anarkul Nazarkulova, Bolot Tentimyshov",
           "sinopsisUrl": null,
-          "durationMinutes": "131 Menit"
+          "durationMinutes": "131",
+          "heroBgUrl": "assets/movies/paradise.jpg",
+          "posterUrl": "assets/movies/paradise.jpg"
         }
       ]
     },
@@ -300,6 +327,7 @@
       "rating": "4,9",
       "ticketPrice": "Rp.40.000-55.000",
       "totalStudios": "4",
+      "imageUrl": "assets/cinemas/suzuyasiantar.jpg",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -328,7 +356,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -350,7 +380,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -369,7 +401,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -396,7 +430,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -412,7 +448,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         }
       ]
     },
@@ -427,6 +465,7 @@
       "rating": "4,6",
       "ticketPrice": "Rp.35.000-50.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/CGVfocal.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -455,7 +494,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -477,7 +518,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo",
@@ -498,7 +541,9 @@
           ],
           "casts": "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn",
           "sinopsisUrl": null,
-          "durationMinutes": "117 menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/myboo.jpg",
+          "posterUrl": "assets/movies/myboo.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -526,7 +571,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -545,7 +592,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -572,7 +621,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -588,7 +639,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Legend_of_Hei_2",
@@ -604,7 +657,9 @@
           ],
           "casts": "Xin Shan, Chenyang Fu, Seth Fuentes, Zhenji Huang, Lu Li, Mingyue Liu, Eric Yang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/The_Legend_of_Hei_II",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/tloh2.webp",
+          "posterUrl": "assets/movies/tloh2.webp"
         }
       ]
     },
@@ -619,6 +674,7 @@
       "rating": "4,3",
       "ticketPrice": "Rp.45.000-57.000",
       "totalStudios": "4",
+      "imageUrl": "assets/cinemas/siantarcnp.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -647,7 +703,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -669,7 +727,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -697,7 +757,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -716,7 +778,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -732,7 +796,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -759,7 +825,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
@@ -780,7 +848,9 @@
           ],
           "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
-          "durationMinutes": "133 Menit"
+          "durationMinutes": "133",
+          "heroBgUrl": "assets/movies/runningman.jpg",
+          "posterUrl": "assets/movies/runningman.jpg"
         }
       ]
     },
@@ -795,6 +865,7 @@
       "rating": "4,4",
       "ticketPrice": "Rp.40.000-50.000",
       "totalStudios": "4",
+      "imageUrl": "assets/cinemas/suzuyaxxi.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -823,7 +894,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -845,7 +918,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -873,7 +948,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -892,7 +969,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -919,7 +998,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Maju_Serem_Mundur_Horor",
@@ -939,7 +1020,9 @@
           ],
           "casts": "Sara Wijayanto, Carissa Perusset, Dodit Mulyanto, Sara Fajira, Daffa Ariq, Yewen, Gary M. Iskak, Kanaya Gleadys, Maell Lee, Ruhut Sitompul",
           "sinopsisUrl": null,
-          "durationMinutes": "91 Menit"
+          "durationMinutes": "91",
+          "heroBgUrl": "assets/movies/majuserem.png",
+          "posterUrl": "assets/movies/majuserem.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -955,7 +1038,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         }
       ]
     },
@@ -970,6 +1055,7 @@
       "rating": "4,5",
       "ticketPrice": "Rp. 40.000-50.000",
       "totalStudios": "4",
+      "imageUrl": "assets/cinemas/thamrin.jpg",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -991,7 +1077,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -1019,7 +1107,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -1038,7 +1128,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -1054,7 +1146,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -1081,7 +1175,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -1109,7 +1205,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         }
       ]
     },
@@ -1124,6 +1222,7 @@
       "rating": "4,6",
       "ticketPrice": "Rp.40.000-150.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/cambridge.jpg",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
@@ -1144,7 +1243,9 @@
           ],
           "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
-          "durationMinutes": "133 Menit"
+          "durationMinutes": "133",
+          "heroBgUrl": "assets/movies/runningman.jpg",
+          "posterUrl": "assets/movies/runningman.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_First_Ride",
@@ -1161,7 +1262,9 @@
           ],
           "casts": "Kang Ha-neul, Kim Young-kwang, Cha Eun Woo, Kang Young-suk, Han Seon-hwa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/The_First_Ride",
-          "durationMinutes": "116 Menit"
+          "durationMinutes": "116",
+          "heroBgUrl": "assets/movies/firstride.jpg",
+          "posterUrl": "assets/movies/firstride.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -1180,7 +1283,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -1207,7 +1312,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -1235,7 +1342,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         }
       ]
     },
@@ -1250,6 +1359,7 @@
       "rating": "4,4",
       "ticketPrice": "Rp. 40.000-47.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/lippocnp.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Tak_Kenal_Maka_Taaruf",
@@ -1267,7 +1377,9 @@
           ],
           "casts": "Fadi Alaydrus, Saskia chadwick, Dinda Mahira, Shandy William, Ika Diharjo, Ina Marika, Kheyla Afzah, Avit Arie, Ghina Nisa Salsabiela, Maghara Adipura, Cahya Arunagara, Tania Anjani",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Tak_Kenal_Maka_Taaruf",
-          "durationMinutes": "99 Menit"
+          "durationMinutes": "99",
+          "heroBgUrl": "assets/movies/takkenal.png",
+          "posterUrl": "assets/movies/takkenal.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -1289,7 +1401,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo",
@@ -1310,7 +1424,9 @@
           ],
           "casts": "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn",
           "sinopsisUrl": null,
-          "durationMinutes": "117 menit"
+          "durationMinutes": "117 menit",
+          "heroBgUrl": "assets/movies/myboo.jpg",
+          "posterUrl": "assets/movies/myboo.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -1338,7 +1454,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -1357,7 +1475,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/AFTERSUN",
@@ -1375,7 +1495,9 @@
           ],
           "casts": "Paul Mescal, Frankie Corio, Celia Rawlson-Hall",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Aftersun",
-          "durationMinutes": "103 Menit"
+          "durationMinutes": "103",
+          "heroBgUrl": "assets/movies/aftersun.jpg",
+          "posterUrl": "assets/movies/aftersun.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -1402,7 +1524,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Wicked",
@@ -1421,7 +1545,9 @@
           ],
           "casts": "Cynthia Erivo, Ariana Grande, Jonathan Bailey, Marissa Bode, Ethan Slater, Michelle Yeoh, Jeff Goldblum, Keala Settle, Bronwyn James, Bowen Yang, Aaron Teoh Guan Ti, Adam James, Colin Michael Carmicha",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Wicked_(film_2024)",
-          "durationMinutes": "160 Menit"
+          "durationMinutes": "160",
+          "heroBgUrl": "assets/movies/wicked.jpg",
+          "posterUrl": "assets/movies/wicked.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -1449,7 +1575,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Legend_of_Hei_2",
@@ -1465,7 +1593,9 @@
           ],
           "casts": "Xin Shan, Chenyang Fu, Seth Fuentes, Zhenji Huang, Lu Li, Mingyue Liu, Eric Yang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/The_Legend_of_Hei_II",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/tloh2.webp",
+          "posterUrl": "assets/movies/tloh2.webp"
         }
       ]
     },
@@ -1480,6 +1610,7 @@
       "rating": "4,6",
       "ticketPrice": "Rp. 35.000-50.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/manhattan.jpg",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -1508,7 +1639,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -1527,7 +1660,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -1543,7 +1678,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -1570,7 +1707,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Air_Mata_Diujung_Sajadah_2",
@@ -1588,7 +1727,9 @@
           ],
           "casts": "Daffa Wardhana, Fedi Nuril, Citra Kirana, Muhammad Faqih Alaydrus, Titi Kamal, Jenny Rachman",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Air_Mata_di_Ujung_Sajadah_2",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/airmata.jpg",
+          "posterUrl": "assets/movies/airmata.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
@@ -1609,7 +1750,9 @@
           ],
           "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
-          "durationMinutes": "133 Menit"
+          "durationMinutes": "133",
+          "heroBgUrl": "assets/movies/runningman.jpg",
+          "posterUrl": "assets/movies/runningman.jpg"
         }
       ]
     },
@@ -1624,6 +1767,7 @@
       "rating": "4,4",
       "ticketPrice": "Rp.35.000-40.000",
       "totalStudios": "5",
+      "imageUrl": "assets/cinemas/millenium.jpg",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -1652,7 +1796,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -1668,7 +1814,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -1687,7 +1835,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -1709,7 +1859,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         }
       ]
     },
@@ -1724,6 +1876,7 @@
       "rating": "4,4",
       "ticketPrice": "Rp. 42.000-62.000",
       "totalStudios": "4",
+      "imageUrl": "assets/cinemas/binjaicnp.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -1751,7 +1904,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -1770,7 +1925,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/SampaiTitikTerakhirmu.jpg",
+          "posterUrl": "assets/movies/SampaiTitikTerakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -1786,7 +1943,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Paradise_at_Mother_Feet",
@@ -1804,7 +1963,9 @@
           ],
           "casts": "Emil Esenaliev, Anarkul Nazarkulova, Bolot Tentimyshov",
           "sinopsisUrl": null,
-          "durationMinutes": "131 Menit"
+          "durationMinutes": "131",
+          "heroBgUrl": "assets/movies/paradise.jpg",
+          "posterUrl": "assets/movies/paradise.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -1831,7 +1992,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
@@ -1852,7 +2015,9 @@
           ],
           "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
-          "durationMinutes": "133 Menit"
+          "durationMinutes": "133",
+          "heroBgUrl": "assets/movies/runningman.jpg",
+          "posterUrl": "assets/movies/runningman.jpg"
         }
       ]
     },
@@ -1867,6 +2032,7 @@
       "rating": "4,5",
       "ticketPrice": "Rp.50.000-65.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/rcwxxi.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -1894,7 +2060,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -1923,7 +2091,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -1945,7 +2115,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo",
@@ -1966,7 +2138,9 @@
           ],
           "casts": "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn",
           "sinopsisUrl": null,
-          "durationMinutes": "117 menit"
+          "durationMinutes": "117 menit",
+          "heroBgUrl": "assets/movies/myboo.jpg",
+          "posterUrl": "assets/movies/myboo.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -1985,7 +2159,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/sampaititikterakhirmu.jpg",
+          "posterUrl": "assets/movies/sampaititikterakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -2001,7 +2177,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
@@ -2022,7 +2200,9 @@
           ],
           "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
-          "durationMinutes": "133 Menit"
+          "durationMinutes": "133",
+          "heroBgUrl": "assets/movies/runningman.jpg",
+          "posterUrl": "assets/movies/runningman.jpg"
         }
       ]
     },
@@ -2037,6 +2217,7 @@
       "rating": "4,6",
       "ticketPrice": "Rp.50.000- 65.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/cpxxi.jpg",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -2064,7 +2245,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -2093,7 +2276,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -2115,7 +2300,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/My_Boo",
@@ -2136,7 +2323,9 @@
           ],
           "casts": "Maylada Susri, Sutthirak Subvijitra, Chaleumpol Tikumpornteerawong, Tatchaya Supatanyasatit, Fon Tanasoontorn",
           "sinopsisUrl": null,
-          "durationMinutes": "117 menit"
+          "durationMinutes": "117 menit",
+          "heroBgUrl": "assets/movies/myboo.jpg",
+          "posterUrl": "assets/movies/myboo.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -2164,7 +2353,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -2183,7 +2374,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/sampaititikterakhirmu.jpg",
+          "posterUrl": "assets/movies/sampaititikterakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -2199,7 +2392,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -2226,7 +2421,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/The_Running_Man",
@@ -2247,7 +2444,9 @@
           ],
           "casts": "Glen Powell, josh brolin, Michael Cera, Colman Domingo, Katy O'Brian, Lee Pace, William H. Macy, Sean Hayes, David Zayas, Jayme Lawson, Emilia Jones, Karl Glusman, Daniel Ezra, Lee Charles, Sandra Dickinson, George Carroll, Sophie Simnett, Olunike Adeliyi",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/The_Running_Man_(2025_film)",
-          "durationMinutes": "133 Menit"
+          "durationMinutes": "133",
+          "heroBgUrl": "assets/movies/runningman.jpg",
+          "posterUrl": "assets/movies/runningman.jpg"
         }
       ]
     },
@@ -2262,6 +2461,7 @@
       "rating": "4,4",
       "ticketPrice": "Rp.44.000-54.000",
       "totalStudios": "6",
+      "imageUrl": "assets/cinemas/medanfaircnp.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -2289,7 +2489,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -2318,7 +2520,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -2340,7 +2544,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -2368,7 +2574,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -2387,7 +2595,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/sampaititikterakhirmu.jpg",
+          "posterUrl": "assets/movies/sampaititikterakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -2403,7 +2613,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -2430,7 +2642,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Paradise_at_Mother_Feet",
@@ -2448,7 +2662,9 @@
           ],
           "casts": "Emil Esenaliev, Anarkul Nazarkulova, Bolot Tentimyshov",
           "sinopsisUrl": null,
-          "durationMinutes": "131 Menit"
+          "durationMinutes": "131",
+          "heroBgUrl": "assets/movies/paradise.jpg",
+          "posterUrl": "assets/movies/paradise.jpg"
         }
       ]
     },
@@ -2463,6 +2679,7 @@
       "rating": "4,4",
       "ticketPrice": "Rp. 35.000-40.000",
       "totalStudios": "4",
+      "imageUrl": "assets/cinemas/hermes.jpg",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -2484,7 +2701,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -2512,7 +2731,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -2539,7 +2760,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Wicked",
@@ -2558,7 +2781,9 @@
           ],
           "casts": "Cynthia Erivo, Ariana Grande, Jonathan Bailey, Marissa Bode, Ethan Slater, Michelle Yeoh, Jeff Goldblum, Keala Settle, Bronwyn James, Bowen Yang, Aaron Teoh Guan Ti, Adam James, Colin Michael Carmicha",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Wicked_(film_2024)",
-          "durationMinutes": "160 Menit"
+          "durationMinutes": "160",
+          "heroBgUrl": "assets/movies/wicked.jpg",
+          "posterUrl": "assets/movies/wicked.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -2574,7 +2799,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         }
       ]
     },
@@ -2589,6 +2816,7 @@
       "rating": "4,5",
       "ticketPrice": "Rp.40.000-55.000",
       "totalStudios": "4",
+      "imageUrl": "assets/cinemas/iriankisaran.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -2617,7 +2845,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -2639,7 +2869,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pangku",
@@ -2667,7 +2899,9 @@
           ],
           "casts": "Reza Rahadian, Claresta Taufan, Fedi Nuril, Christine Hakim, Shakeel Fauzi Aisy, José Rizal Manua, Devano Danendra, Kaan Lativan, Nazira C. Noer, TJ, Reza Chandika, Galabby Tahira, Lukman Sardi, Nai Djenar Maesa Ayu, Heliana Sinaga.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pangku_(film)",
-          "durationMinutes": "120 Menit"
+          "durationMinutes": "120",
+          "heroBgUrl": "assets/movies/pangku.jpg",
+          "posterUrl": "assets/movies/pangku.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -2686,7 +2920,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/sampaititikterakhirmu.jpg",
+          "posterUrl": "assets/movies/sampaititikterakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -2702,7 +2938,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Now_You_See_Me:_Now_You_Dont",
@@ -2729,7 +2967,9 @@
           ],
           "casts": "Lizzy Caplan, Rosamund Pike, Morgan Freeman, Daniel Radcliffe, Woody Harrelson, Ariana Greenblatt, Isla Fisher, Mark Ruffalo, Justice Smith, Jesse Eisenberg, Dave Franco, Dominic Sessa",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Now_You_See_Me:_Now_You_Don%27t",
-          "durationMinutes": "112 Menit"
+          "durationMinutes": "112",
+          "heroBgUrl": "assets/movies/nysm.jpg",
+          "posterUrl": "assets/movies/nysm.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Predator:_Badlands",
@@ -2757,7 +2997,9 @@
           ],
           "casts": "Elle Fanning, Dimitrius Schuster-Koloamatangi, Michael Homick",
           "sinopsisUrl": "https://en.wikipedia.org/wiki/Predator:_Badlands",
-          "durationMinutes": "107 Menit"
+          "durationMinutes": "107",
+          "heroBgUrl": "assets/movies/predator.jpg",
+          "posterUrl": "assets/movies/predator.jpg"
         }
       ]
     },
@@ -2772,6 +3014,7 @@
       "rating": "4,4",
       "ticketPrice": "Rp.40.000-55.000",
       "totalStudios": "4",
+      "imageUrl": "assets/cinemas/suzuyatmrxxi.png",
       "movies": [
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Pesugihan_Sate_Gagak",
@@ -2800,7 +3043,9 @@
           ],
           "casts": "Ardit Erwandha, Yono Bakrie, Benidictus Siregar, Yoriko Angeline, Nunung, Arief Didu",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Pesugihan_Sate_Gagak",
-          "durationMinutes": "105 Menit"
+          "durationMinutes": "105",
+          "heroBgUrl": "assets/movies/pesugihan.png",
+          "posterUrl": "assets/movies/pesugihan.png"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sosok_Ketiga:_Lintrik",
@@ -2816,7 +3061,9 @@
           ],
           "casts": "Adinda Thomas, Aulia Sarah, Wafda Saifan, Atiqah Hasiholan, Nugie, Adzwa Aurel, Alifah Lubis, Saputra Kori, Kukuh Prasetyo Kudamai, King Radja Nasution, Iris, Benedictus Siregar, Dilan Janiyar",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sosok_Ketiga_2:_Lintrik",
-          "durationMinutes": "117 Menit"
+          "durationMinutes": "117",
+          "heroBgUrl": "assets/movies/sosokketiga.jpg",
+          "posterUrl": "assets/movies/sosokketiga.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Sampai_Titik_Terakhirmu",
@@ -2835,7 +3082,9 @@
           ],
           "casts": "Dinna Jasanti, Arbani Yasiz , Mawar Eva De Jongh, Unique Priscilla, Kiki Narendra, Tika Panggabean, Dana Wardhana, Siti Fauziah, Alfie Alfandy, Onadio Leonardo, Yasamin Jasem, Shakeel Fauzi Aisy, Vonny Felicia, TJ, Ricky Cemor, Verina Ardiyanti.",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Sampai_Titik_Terakhirmu_(film)",
-          "durationMinutes": "114 Menit"
+          "durationMinutes": "114",
+          "heroBgUrl": "assets/movies/sampaititikterakhirmu.jpg",
+          "posterUrl": "assets/movies/sampaititikterakhirmu.jpg"
         },
         {
           "id": "http://www.semanticweb.org/asus/ontologies/2025/10/bioskop-sumut/Dopamin",
@@ -2857,7 +3106,9 @@
           "screenTypes": [],
           "casts": "Angga Yunanda, Shenina Cinnamon, Anjasmara, T Rifnu Wikana, Totos Rasiti, Andri Mashadi, Nagra Kautsar Pakusadewo, Kiki Narendra, Rizky Inggrar, Verdi Solaiman, Tike Priatnakusumah, Aida Nurmala, Willem Bevers, Alfian Phang",
           "sinopsisUrl": "https://id.wikipedia.org/wiki/Dopamin_(film)",
-          "durationMinutes": "94 Menit"
+          "durationMinutes": "94",
+          "heroBgUrl": "assets/movies/dopamin.jpg",
+          "posterUrl": "assets/movies/dopamin.jpg"
         }
       ]
     }

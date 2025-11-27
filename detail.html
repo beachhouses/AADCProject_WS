@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detail Bioskop – AADC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav">
+    <div class="nav-left">
+      <div class="logo-box">AADC</div>
+      <div class="nav-text-group">
+        <div class="nav-title">Ada Apa di Cinema?</div>
+        <div class="nav-subtitle">North Sumatera Cinema Guide</div>
+      </div>
+    </div>
+
+    <nav class="nav-right">
+      <a href="index.html#nowShowing" class="nav-link">Now Showing</a>
+
+      <!-- Dropdown Cinema Categories -->
+      <div class="nav-dropdown" id="navCinemaDropdown">
+        <button type="button" class="nav-link nav-dropdown-toggle">
+          Cinema Categories ▾
+        </button>
+        <div class="nav-dropdown-menu nav-dropdown-menu-cinema" id="navCinemaMenu">
+          <!-- Diisi otomatis oleh JS -->
+        </div>
+      </div>
+
+      <!-- Dropdown City Categories -->
+      <div class="nav-dropdown" id="navCityDropdown">
+        <button type="button" class="nav-link nav-dropdown-toggle">
+          City Categories ▾
+        </button>
+        <div class="nav-dropdown-menu nav-dropdown-menu-city" id="navCityMenu">
+          <!-- Diisi otomatis oleh JS -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="detail-wrapper" style="padding-top: 110px;">
+    <div class="detail-topbar">
+      Hasil Pencarian untuk <strong id="detailCinemaNameTop"></strong>
+    </div>
+
+    <section class="detail-header">
+      <!-- Info Bioskop -->
+      <article class="detail-cinema-card">
+        <div class="detail-cinema-inner">
+          <div class="detail-cinema-photo" id="detailCinemaPhoto"></div>
+          <div class="detail-cinema-info">
+            <h1 id="detailCinemaName">Nama Bioskop</h1>
+            <p id="detailCinemaAddress"></p>
+            <p id="detailCinemaMeta"></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Peta -->
+      <article class="detail-map-card">
+        <div class="detail-map-title">Lokasi</div>
+        <div id="detailMapEmbed" class="detail-map-embed">
+          <!-- iframe / link diisi via JS -->
+        </div>
+      </article>
+    </section>
+
+    <!-- Jadwal Film -->
+    <section class="detail-schedule">
+      <div class="detail-schedule-title">JADWAL FILM</div>
+      <p class="detail-schedule-sub" id="detailScheduleSub">Memuat jadwal film...</p>
+
+      <div id="detailMovieList" class="detail-movie-list">
+        <!-- Card Film diisi via JS -->
+      </div>
+    </section>
+
+    <!-- CTA Bawah -->
+    <section class="detail-bottom-cta">
+      <div class="detail-bottom-text">Belum menemukan bioskop yang cocok?</div>
+      <div class="detail-bottom-buttons">
+        <button id="btnNearest" class="detail-btn-secondary">Tampilkan bioskop terdekat</button>
+        <a href="index.html" class="detail-btn-primary">Kembali ke beranda</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2025 AADC — Ada Apa di Cinema? | All rights reserved.
+  </footer>
+
+  <!-- ===== JS ===== -->
+  <script src="detail.js"></script>
+  <script>
+    // ===== NAVBAR INTERAKTIF =====
+
+    // Scroll blur
+    window.addEventListener("scroll", () => {
+      const nav = document.querySelector(".nav");
+      if (window.scrollY > 40) nav.classList.add("nav-blur");
+      else nav.classList.remove("nav-blur");
+    });
+
+    // Dropdown toggle
+    document.querySelectorAll(".nav-dropdown-toggle").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const parent = btn.closest(".nav-dropdown");
+        const isOpen = parent.classList.contains("open");
+        document.querySelectorAll(".nav-dropdown").forEach((el) => el.classList.remove("open"));
+        if (!isOpen) parent.classList.add("open");
+      });
+    });
+
+    // Tutup dropdown kalau klik di luar
+    document.addEventListener("click", () => {
+      document.querySelectorAll(".nav-dropdown").forEach((el) => el.classList.remove("open"));
+    });
+
+    // Tombol search arahkan ke index section pencarian
+    const searchBtn = document.querySelector(".nav-search-btn");
+    if (searchBtn) {
+      searchBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.location.href = "index.html#searchSection";
+      });
+    }
+  </script>
+</body>
+</html>

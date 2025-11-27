@@ -2,71 +2,125 @@ let allCinemas = [];
 let allGenres = new Set();
 
 const els = {
+  // search/filter
   searchInput: document.getElementById("searchInput"),
-  cityFilter: document.getElementById("cityFilter"),
   ageFilter: document.getElementById("ageFilter"),
   genreFilter: document.getElementById("genreFilter"),
   cinemaGrid: document.getElementById("cinemaGrid"),
   btnSearch: document.getElementById("btnSearch"),
   btnExploreMovies: document.getElementById("btnExploreMovies"),
 
-  // hero
-  heroMovieTitle: document.getElementById("heroMovieTitle"),
-  heroMovieYear: document.getElementById("heroMovieYear"),
-  heroMovieDesc: document.getElementById("heroMovieDesc"),
-  heroCinemaName: document.getElementById("heroCinemaName"),
+  // kategori di body
+  brandList: document.getElementById("brandList"),
+  cityList: document.getElementById("cityList"),
+
+  // hero utama
+  heroBg: document.querySelector(".hero-bg"),
+  heroTitle: document.querySelector(".hero-title"),
+  heroDesc: document.querySelector(".hero-desc"),
+  heroYear: document.querySelector(".hero-rating .year"),
+  heroStars: document.querySelector(".hero-rating .stars"),
+
+  // strip now showing (kartu kecil)
   heroThumbnails: document.getElementById("heroThumbnails"),
 
-  // modal
-  modal: document.getElementById("movieModal"),
-  modalCloseBtn: document.getElementById("modalCloseBtn"),
-  modalCinemaName: document.getElementById("modalCinemaName"),
-  modalCinemaMeta: document.getElementById("modalCinemaMeta"),
-  modalMoviesList: document.getElementById("modalMoviesList"),
+  // nav dropdown menu
+  navCinemaMenu: document.getElementById("navCinemaMenu"),
+  navCityMenu: document.getElementById("navCityMenu"),
 };
+
+const filters = {
+  city: "",
+  brand: "",
+};
+
+function getBrandFromName(name) {
+  if (!name) return "Other";
+  const n = name.toLowerCase();
+  if (n.includes("cgv")) return "CGV";
+  if (n.includes("cinepolis") || n.includes("cinépolis")) return "Cinépolis";
+  if (n.includes("xxi")) return "Cinema XXI";
+  return "Other";
+}
 
 async function loadData() {
   try {
     const res = await fetch("data.json");
     const data = await res.json();
-    allCinemas = data.cinemas || [];
+
+    allCinemas = (data.cinemas || []).map((c) => ({
+      ...c,
+      brand: getBrandFromName(c.name),
+    }));
 
     if (!allCinemas.length) {
       els.cinemaGrid.innerHTML =
-        '<div class="empty-state">Data bioskop kosong. Pastikan <code>data.json</code> berisi data hasil konversi dari Turtle.</div>';
+        '<div class="empty-state">Data bioskop kosong. Pastikan <code>data.json</code> benar.</div>';
       return;
     }
 
-    fillFilters();
-    renderHero();
+    fillFiltersAndCategories();
+    renderHeroDynamic();
+    renderNowShowingStrip();
     renderCinemas(allCinemas);
     bindEvents();
-  } catch (err) {
-    console.error(err);
+
+  } catch (e) {
+    console.error(e);
     els.cinemaGrid.innerHTML =
-      '<div class="empty-state">Gagal memuat <code>data.json</code>. Cek lokasi file dan jalankan via server lokal jika perlu.</div>';
+      '<div class="empty-state">Gagal memuat <code>data.json</code>.</div>';
   }
 }
 
-function fillFilters() {
+const carousel = document.getElementById("heroThumbnails");
+const btnLeft = document.getElementById("arrowLeft");
+const btnRight = document.getElementById("arrowRight");
+
+// Clone untuk efek infinite scroll
+function cloneCarouselItems() {
+  const cards = [...carousel.children];
+  cards.forEach((card) => {
+    const clone = card.cloneNode(true);
+    carousel.appendChild(clone);
+  });
+}
+cloneCarouselItems();
+
+btnLeft.addEventListener("click", () => {
+  carousel.scrollBy({ left: -250, behavior: "smooth" });
+});
+
+btnRight.addEventListener("click", () => {
+  carousel.scrollBy({ left: 250, behavior: "smooth" });
+});
+
+// Auto scroll pelan terus (bisa kamu ubah speed)
+let autoScroll = setInterval(() => {
+  carousel.scrollBy({ left: 1, behavior: "smooth" });
+}, 35);
+
+// Pause kalau user hover
+carousel.addEventListener("mouseenter", () => clearInterval(autoScroll));
+carousel.addEventListener("mouseleave", () => {
+  autoScroll = setInterval(() => {
+    carousel.scrollBy({ left: 1, behavior: "smooth" });
+  }, 35);
+});
+
+function fillFiltersAndCategories() {
   const cities = new Set();
+  const brands = new Set();
 
   allCinemas.forEach((c) => {
     if (c.city) cities.add(c.city);
+    if (c.brand && c.brand !== "Other") brands.add(c.brand);
     (c.movies || []).forEach((m) =>
       (m.genres || []).forEach((g) => allGenres.add(g))
     );
   });
 
-  Array.from(cities)
-    .sort((a, b) => a.localeCompare(b))
-    .forEach((city) => {
-      const opt = document.createElement("option");
-      opt.value = city;
-      opt.textContent = city;
-      els.cityFilter.appendChild(opt);
-    });
-
+  // isi dropdown genre (filter di body)
+if (els.genreFilter) {
   Array.from(allGenres)
     .sort((a, b) => a.localeCompare(b))
     .forEach((g) => {
@@ -77,112 +131,283 @@ function fillFilters() {
     });
 }
 
-function renderHero() {
-  // Ambil beberapa film pertama untuk hero
+  const brandArr = Array.from(brands);
+  const cityArr = Array.from(cities).sort((a, b) => a.localeCompare(b));
+
+  // body cards: cuma dibikin kalau elemen-nya ada
+  if (els.brandList && els.cityList) {
+    buildCategoryListBody(els.brandList, brandArr, "brand");
+    buildCategoryListBody(els.cityList, cityArr, "city");
+  }
+
+  // dropdown di navbar
+  buildNavDropdownMenus(brandArr, cityArr);
+}
+
+/* ====== HERO DINAMIS (AUTO SLIDE) ====== */
+let heroIndex = 0;
+let heroMovies = [];
+
+function renderHeroDynamic() {
   const movies = [];
   allCinemas.forEach((c) => {
     (c.movies || []).forEach((m) => movies.push({ cinema: c, movie: m }));
   });
-
   if (!movies.length) return;
 
-  const first = movies[0];
-  els.heroMovieTitle.textContent = first.movie.title || "Now Showing";
-  els.heroCinemaName.textContent = first.cinema.name || "Cinema";
-  els.heroMovieYear.textContent = first.movie.year
-    ? `(${first.movie.year})`
-    : "";
+  // urutkan, biar yang "Sampai Titik Terakhirmu" tetap muncul pertama
+  heroMovies = [
+    ...movies.filter((x) =>
+      (x.movie.title || "").toLowerCase().includes("sampai titik terakhir")
+    ),
+    ...movies.filter(
+      (x) =>
+        !(x.movie.title || "")
+          .toLowerCase()
+          .includes("sampai titik terakhir")
+    ),
+  ];
 
-  const anyGenre = (first.movie.genres || []).slice(0, 2).join(", ");
-  const anyScreen = (first.movie.screenTypes || []).join(", ");
+  updateHeroSlide(); // tampilkan pertama kali
+  setInterval(nextHeroSlide, 6000); // ganti tiap 6 detik
+}
 
-  els.heroMovieDesc.textContent =
-    `Sedang tayang di ${first.cinema.name || "bioskop"} di kota ${
-      first.cinema.city || "-"
-    }. Genre: ${anyGenre || "-"}, tipe layar: ${
-      anyScreen || "-"
-    }. Lihat detail film lain dengan sekali pencarian.`;
+function updateHeroSlide() {
+  if (!heroMovies.length) return;
+  const { cinema, movie } = heroMovies[heroIndex];
 
-  // Thumbnail list
-  const container = document.createElement("div");
-  const title = document.createElement("div");
-  title.className = "hero-thumb-title";
-  title.textContent = "Now Showing in North Sumatera";
-  container.appendChild(title);
+  els.heroContent = els.heroContent || document.querySelector(".hero-content");
+  els.heroContent.classList.add("fade-out");
 
-  const row = document.createElement("div");
-  row.className = "hero-thumb-row";
+  setTimeout(() => {
+    // Ganti data hero
+    els.heroTitle.textContent = movie.title || "Now Showing";
+    els.heroYear.textContent = movie.year ? `(${movie.year})` : "(2025)";
 
-  movies.slice(0, 8).forEach(({ cinema, movie }) => {
+    let starsText = "★★★★★";
+    if (movie.ratingScore != null) {
+      const score = Number(movie.ratingScore);
+      const full = Math.round(score);
+      starsText = "★★★★★"
+        .split("")
+        .map((s, i) => (i < full ? "★" : "☆"))
+        .join("");
+    }
+    els.heroStars.textContent = starsText;
+
+    if (movie.synopsisEn) {
+      els.heroDesc.textContent = movie.synopsisEn;
+    } else {
+      const g = (movie.genres || []).join(", ") || "various genres";
+      const screen = (movie.screenTypes || []).join(", ") || "standard 2D";
+      els.heroDesc.textContent = `Now playing at ${cinema.name ||
+        "your favorite cinema"} in ${cinema.city ||
+        "North Sumatera"}. Genre: ${g}, screen type: ${screen}.`;
+    }
+
+    // background hero: pakai heroBgUrl > posterUrl > default
+    if (els.heroBg) {
+      const bg =
+        movie.heroBgUrl ||
+        movie.posterUrl ||
+        "hero-placeholder.jpg";
+      els.heroBg.style.backgroundImage = `url("${bg}")`;
+    }
+
+    // animasi fade-in
+    els.heroContent.classList.remove("fade-out");
+    els.heroContent.classList.add("fade-in");
+  }, 400);
+}
+
+function nextHeroSlide() {
+  heroIndex = (heroIndex + 1) % heroMovies.length;
+  updateHeroSlide();
+}
+
+
+
+/* ====== NOW SHOWING STRIP (kartu kecil di bawah hero) ====== */
+
+function renderNowShowingStrip() {
+  if (!els.heroThumbnails) return;
+
+  const movies = [];
+  allCinemas.forEach((c) =>
+    (c.movies || []).forEach((m) => movies.push({ cinema: c, movie: m }))
+  );
+  els.heroThumbnails.innerHTML = "";
+
+  movies.slice(0, 12).forEach(({ cinema, movie }) => {
     const card = document.createElement("div");
-    card.className = "hero-thumb-card";
+    card.className = "thumb-card";
 
     const img = document.createElement("div");
-    img.className = "hero-thumb-image";
+    img.className = "hero-thumb-upper";
+    if (movie.posterUrl) {
+      img.style.backgroundImage = `url("${movie.posterUrl}")`;
+      img.style.backgroundSize = "cover";
+      img.style.backgroundPosition = "center";
+    }
     card.appendChild(img);
 
-    const body = document.createElement("div");
-    body.className = "hero-thumb-body";
+    const lower = document.createElement("div");
+    lower.className = "thumb-meta";
+    const t = document.createElement("h4");
+    t.textContent = movie.title || "Untitled";
+    const c = document.createElement("p");
+    c.textContent = cinema.city || "";
+    lower.appendChild(t);
+    lower.appendChild(c);
 
-    const mt = document.createElement("div");
-    mt.className = "hero-thumb-movie-title";
-    mt.textContent = movie.title || "Untitled";
-    body.appendChild(mt);
+    card.appendChild(lower);
 
-    const meta = document.createElement("div");
-    meta.textContent = cinema.city ? cinema.city : "";
-    body.appendChild(meta);
+    if (movie.id) {
+      card.addEventListener("click", () => {
+        window.location.href = `movie.html?movie=${encodeURIComponent(
+          movie.id
+        )}`;
+      });
+    }
 
-    card.appendChild(body);
-    row.appendChild(card);
+    els.heroThumbnails.appendChild(card);
+  });
+}
+
+/* ====== KATEGORI DI BODY ====== */
+
+function buildCategoryListBody(container, items, type) {
+  container.innerHTML = "";
+  items.forEach((label) => {
+    const item = document.createElement("div");
+    item.className = "category-item";
+    item.textContent = label;
+    item.dataset.value = label;
+    item.dataset.type = type;
+
+    if (type === "brand") {
+      if (label === "Cinema XXI") item.classList.add("brand-XXI");
+      if (label === "CGV") item.classList.add("brand-CGV");
+      if (label === "Cinépolis") item.classList.add("brand-Cinepolis");
+    }
+
+    item.addEventListener("click", () => {
+      if (type === "city") {
+        filters.city = filters.city === label ? "" : label;
+      } else {
+        filters.brand = filters.brand === label ? "" : label;
+      }
+      updateCategoryActiveBody();
+      applyFilters();
+    });
+
+    container.appendChild(item);
   });
 
-  container.appendChild(row);
-  els.heroThumbnails.innerHTML = "";
-  els.heroThumbnails.appendChild(container);
+  updateCategoryActiveBody();
 }
+
+function updateCategoryActiveBody() {
+  document.querySelectorAll(".category-item").forEach((el) => {
+    const type = el.dataset.type;
+    const val = el.dataset.value;
+    const active =
+      (type === "city" && filters.city === val) ||
+      (type === "brand" && filters.brand === val);
+    el.classList.toggle("active", active);
+  });
+}
+
+/* ====== NAV DROPDOWN MENUS ====== */
+
+function buildNavDropdownMenus(brands, cities) {
+  // cinema brands
+  els.navCinemaMenu.innerHTML = "";
+  brands.forEach((b) => {
+    const div = document.createElement("div");
+    div.className = "nav-drop-item nav-drop-brand";
+    if (b === "Cinema XXI") div.classList.add("brand-XXI");
+    if (b === "CGV") div.classList.add("brand-CGV");
+    if (b === "Cinépolis") div.classList.add("brand-Cinepolis");
+    div.textContent = b;
+
+    div.addEventListener("click", () => {
+      filters.brand = filters.brand === b ? "" : b;
+      applyFilters();
+      closeAllNavDropdowns();
+      document
+        .getElementById("cinemaCategories")
+        .scrollIntoView({ behavior: "smooth" });
+    });
+
+    els.navCinemaMenu.appendChild(div);
+  });
+
+  // cities
+  els.navCityMenu.innerHTML = "";
+  cities.forEach((city) => {
+    const div = document.createElement("div");
+    div.className = "nav-drop-item nav-drop-city";
+    div.textContent = city;
+
+    div.addEventListener("click", () => {
+      filters.city = filters.city === city ? "" : city;
+      applyFilters();
+      closeAllNavDropdowns();
+      document
+        .getElementById("cinemaCategories")
+        .scrollIntoView({ behavior: "smooth" });
+    });
+
+    els.navCityMenu.appendChild(div);
+  });
+}
+
+function closeAllNavDropdowns() {
+  document
+    .querySelectorAll(".nav-dropdown")
+    .forEach((el) => el.classList.remove("open"));
+}
+
+/* ====== FILTER & GRID BIOSKOP ====== */
 
 function bindEvents() {
   els.btnSearch.addEventListener("click", applyFilters);
   els.searchInput.addEventListener("keyup", (e) => {
     if (e.key === "Enter") applyFilters();
   });
-  els.cityFilter.addEventListener("change", applyFilters);
-  els.ageFilter.addEventListener("change", applyFilters);
-  els.genreFilter.addEventListener("change", applyFilters);
 
-  els.btnExploreMovies.addEventListener("click", () => {
-    document
-      .getElementById("cinemaCategories")
-      .scrollIntoView({ behavior: "smooth" });
-  });
-
-  // Delegasi klik untuk tombol detail pada card
-  els.cinemaGrid.addEventListener("click", (e) => {
-    const btn = e.target.closest(".btn-detail");
-    if (!btn) return;
-    const id = btn.dataset.id;
-    const cinema = allCinemas.find((c) => c.id === id);
-    if (cinema) openModal(cinema);
-  });
-
-  // Modal
-  els.modalCloseBtn.addEventListener("click", closeModal);
-  els.modal.addEventListener("click", (e) => {
-    if (e.target === els.modal.querySelector(".modal-backdrop")) {
-      closeModal();
-    }
-  });
+  // kalau dropdown Age & Genre dihapus, amanin aja:
+  if (els.ageFilter) els.ageFilter.addEventListener("change", applyFilters);
+  if (els.genreFilter) els.genreFilter.addEventListener("change", applyFilters);
 }
+
+  // nav dropdown toggle
+  document
+    .querySelectorAll(".nav-dropdown-toggle")
+    .forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const parent = btn.closest(".nav-dropdown");
+        const isOpen = parent.classList.contains("open");
+        closeAllNavDropdowns();
+        if (!isOpen) parent.classList.add("open");
+      });
+    });
+
+  // klik di luar menutup dropdown
+  document.addEventListener("click", () => {
+    closeAllNavDropdowns();
+  });
 
 function applyFilters() {
   const q = els.searchInput.value.trim().toLowerCase();
-  const city = els.cityFilter.value;
   const age = els.ageFilter.value;
-  const genre = els.genreFilter.value;
+const genre = els.genreFilter ? els.genreFilter.value : "";
 
   const filtered = allCinemas.filter((cinema) => {
-    if (city && cinema.city !== city) return false;
+    if (filters.city && cinema.city !== filters.city) return false;
+    if (filters.brand && cinema.brand !== filters.brand) return false;
 
     if (age) {
       const hasAge = (cinema.movies || []).some(
@@ -219,7 +444,7 @@ function applyFilters() {
 function renderCinemas(cinemas) {
   if (!cinemas.length) {
     els.cinemaGrid.innerHTML =
-      '<div class="empty-state">Tidak ada bioskop yang cocok dengan filter pencarian.</div>';
+      '<div class="empty-state">Tidak ada bioskop yang cocok dengan filter.</div>';
     return;
   }
 
@@ -237,12 +462,25 @@ function renderCinemas(cinemas) {
     top.appendChild(gradient);
     card.appendChild(top);
 
+    top.className = "cinema-card-top";
+
+    // === TAMBAHAN: pasang gambar sebagai background area atas kartu ===
+    if (cinema.imageUrl) {
+      top.style.backgroundImage = `url("${cinema.imageUrl}")`;
+      top.style.backgroundSize = "cover";
+      top.style.backgroundPosition = "center";
+    }
+
+    gradient.className = "cinema-card-gradient";
+    top.appendChild(gradient);
+    card.appendChild(top);
+
     const body = document.createElement("div");
     body.className = "cinema-card-body";
 
     const tag = document.createElement("div");
     tag.className = "cinema-tag";
-    tag.textContent = "Cinema Point";
+    tag.textContent = cinema.brand || "Cinema";
     body.appendChild(tag);
 
     const name = document.createElement("div");
@@ -289,11 +527,11 @@ function renderCinemas(cinemas) {
     const footer = document.createElement("div");
     footer.className = "cinema-card-footer";
 
-    const btn = document.createElement("button");
-    btn.className = "btn-detail";
-    btn.textContent = "View Movies";
-    btn.dataset.id = cinema.id;
-    footer.appendChild(btn);
+    const link = document.createElement("a");
+    link.className = "btn-detail";
+    link.textContent = "View Schedule";
+    link.href = `detail.html?cinema=${encodeURIComponent(cinema.id)}`;
+    footer.appendChild(link);
 
     if (cinema.mapLink) {
       const map = document.createElement("a");
@@ -313,82 +551,6 @@ function renderCinemas(cinemas) {
 
   els.cinemaGrid.innerHTML = "";
   els.cinemaGrid.appendChild(frag);
-}
-
-function openModal(cinema) {
-  els.modalCinemaName.textContent = cinema.name || "Cinema";
-  els.modalCinemaMeta.textContent = cinema.city
-    ? `${cinema.city} • ${cinema.address || ""}`
-    : cinema.address || "";
-
-  const list = document.createElement("div");
-  list.className = "modal-movies-list";
-
-  if (!cinema.movies || !cinema.movies.length) {
-    list.innerHTML =
-      '<div class="empty-state">Belum ada data film untuk bioskop ini.</div>';
-  } else {
-    cinema.movies.forEach((m) => {
-      const card = document.createElement("div");
-      card.className = "modal-movie-card";
-
-      const title = document.createElement("div");
-      title.className = "modal-movie-title";
-      title.textContent = m.title || "Untitled";
-      card.appendChild(title);
-
-      const meta = document.createElement("div");
-      meta.className = "modal-movie-meta";
-      const parts = [];
-      if (m.director) parts.push(`Director: ${m.director}`);
-      if (m.durationMinutes) parts.push(`${m.durationMinutes} minutes`);
-      if (m.ageRating) parts.push(`Rating usia: ${m.ageRating}`);
-      meta.textContent = parts.join(" • ");
-      card.appendChild(meta);
-
-      const tags = document.createElement("div");
-      tags.className = "modal-movie-tags";
-
-      (m.genres || []).forEach((g) => {
-        const span = document.createElement("span");
-        span.className = "modal-tag";
-        span.textContent = g;
-        tags.appendChild(span);
-      });
-
-      (m.screenTypes || []).forEach((s) => {
-        const span = document.createElement("span");
-        span.className = "modal-tag";
-        span.textContent = s;
-        tags.appendChild(span);
-      });
-
-      if (tags.childElementCount) card.appendChild(tags);
-
-      if (m.sinopsisUrl) {
-        const linkWrap = document.createElement("div");
-        linkWrap.className = "modal-link";
-        const a = document.createElement("a");
-        a.href = m.sinopsisUrl;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
-        a.textContent = "Lihat sinopsis";
-        linkWrap.appendChild(a);
-        card.appendChild(linkWrap);
-      }
-
-      list.appendChild(card);
-    });
-  }
-
-  els.modalMoviesList.innerHTML = "";
-  els.modalMoviesList.appendChild(list);
-
-  els.modal.classList.remove("hidden");
-}
-
-function closeModal() {
-  els.modal.classList.add("hidden");
 }
 
 // start

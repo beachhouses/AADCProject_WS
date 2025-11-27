@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <!-- NAVBAR -->
   <header class="nav">
     <div class="nav-left">
@@ -16,49 +17,75 @@
         <div class="nav-subtitle">North Sumatera Cinema Guide</div>
       </div>
     </div>
+
     <nav class="nav-right">
-      <a href="#nowShowing">Now Showing</a>
-      <a href="#cinemaCategories">Cinema Categories</a>
-      <a href="#citySection">City Categories</a>
+      <a href="#nowShowing" class="nav-link">Now Showing</a>
+
+      <!-- Cinema Categories dropdown -->
+      <div class="nav-dropdown" id="navCinemaDropdown">
+        <button type="button" class="nav-link nav-dropdown-toggle">
+          Cinema Categories ▾
+        </button>
+        <div class="nav-dropdown-menu nav-dropdown-menu-cinema" id="navCinemaMenu">
+          <!-- isi brand diisi JS -->
+        </div>
+      </div>
+
+      <!-- City Categories dropdown -->
+      <div class="nav-dropdown" id="navCityDropdown">
+        <button type="button" class="nav-link nav-dropdown-toggle">
+          City Categories ▾
+        </button>
+        <div class="nav-dropdown-menu nav-dropdown-menu-city" id="navCityMenu">
+          <!-- isi kota diisi JS -->
+        </div>
+      </div>
+
       <button class="nav-search-btn" aria-label="Search">
-        🔍
       </button>
     </nav>
   </header>
 
-  <!-- HERO -->
-  <section class="hero" id="nowShowing">
-    <div class="hero-overlay"></div>
-    <div class="hero-inner">
-      <div class="hero-left">
-        <div class="hero-badge-row">
-          <span class="hero-badge">NOW SHOWING</span>
-          <span class="hero-badge hero-badge-light" id="heroCinemaName">
-            North Sumatera
-          </span>
-        </div>
-        <h1 class="hero-title" id="heroMovieTitle">
-          Sampai Titik Terakhirmu
-        </h1>
-        <div class="hero-year" id="heroMovieYear">(2025)</div>
-        <p class="hero-desc" id="heroMovieDesc">
-          Temukan film yang sedang tayang di seluruh bioskop favoritmu di
-          Sumatera Utara. Cek jadwal, genre, dan rating usia dalam satu
-          search engine.
-        </p>
-        <div class="hero-buttons">
-          <a href="#searchSection" class="btn-primary">Cari Bioskop</a>
-          <button class="btn-ghost" id="btnExploreMovies">
-            Lihat Semua Film
-          </button>
-        </div>
+<!-- HERO (Dynamic Auto-Slide) -->
+<section class="hero hero-main" id="nowShowing">
+  <div class="hero-bg"></div>
+  <div class="hero-content fade-in">
+    <div class="hero-info">
+      <h2 class="hero-sub" id="heroSub"></h2>
+      <h1 class="hero-title" id="heroTitle"></h1>
+      <p class="hero-desc" id="heroDesc">
+        Please wait while we load movie data.
+      </p>
+
+      <div class="hero-rating">
+        <span class="year" id="heroYear">(....)</span>
+        <span class="stars" id="heroStars">★★★★★</span>
       </div>
 
-      <div class="hero-right" id="heroThumbnails">
-        <!-- thumbnail film dinamis dari JS -->
+      <div class="hero-btns">
+        <a href="#" class="btn-dark" id="heroDetailBtn">Detail Film</a>
+        <a href="#searchSection" class="btn-light">Search Cinema</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+  <!-- STRIP NOW SHOWING (kartu film kecil) -->
+<section class="nowshowing-strip">
+  <div class="nowshowing-container">
+    <h3>NOW SHOWING</h3>
+    <div class="carousel-wrapper">
+      <button class="arrow-btn left" id="arrowLeft">❮</button>
+
+      <div class="nowshowing-carousel" id="heroThumbnails">
+        <!-- film cards loaded via JS -->
+      </div>
+
+      <button class="arrow-btn right" id="arrowRight">❯</button>
+    </div>
+  </div>
+</section>
+
 
   <!-- SEARCH SECTION -->
   <section class="search-section" id="searchSection">
@@ -74,16 +101,8 @@
           <input
             type="text"
             id="searchInput"
-            placeholder="Ketik nama bioskop, kota, atau judul film..."
+            placeholder="Ketik nama bioskop atau mall..."
           />
-        </div>
-
-        <div class="search-select-wrapper" id="citySection">
-          <label for="cityFilter">City</label>
-          <select id="cityFilter">
-            <option value="">All cities</option>
-            <!-- diisi dinamis -->
-          </select>
         </div>
 
         <button id="btnSearch" class="btn-search-main">
@@ -100,30 +119,10 @@
     </h2>
     <p class="section-subtitle section-subtitle-small">
       Jelajahi bioskop di berbagai kota di Sumatera Utara, lengkap dengan
-      informasi alamat, rating, harga tiket, dan daftar film yang sedang tayang.
+      alamat, rating, harga tiket, dan daftar film yang sedang tayang.
     </p>
 
     <div class="filters-row">
-      <div class="filter-group">
-        <label for="ageFilter">Age Rating</label>
-        <select id="ageFilter">
-          <option value="">All</option>
-          <option value="SU">SU</option>
-          <option value="13+">13+</option>
-          <option value="17+">17+</option>
-          <option value="21+">21+</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <label for="genreFilter">Genre</label>
-        <select id="genreFilter">
-          <option value="">All</option>
-          <!-- diisi dinamis -->
-        </select>
-      </div>
-    </div>
-
     <div id="cinemaGrid" class="cinema-grid">
       <div class="empty-state">
         Loading cinema data from <code>data.json</code>...
@@ -131,7 +130,7 @@
     </div>
   </section>
 
-  <!-- MODAL DETAIL FILM -->
+  <!-- (MODAL masih dibiarkan; kalau tidak dipakai bisa kamu hapus nanti) -->
   <div id="movieModal" class="modal hidden">
     <div class="modal-backdrop"></div>
     <div class="modal-content">
@@ -150,6 +149,33 @@
     © 2025 AADC — Ada Apa di Cinema? | All rights reserved.
   </footer>
 
+  <script>
+  window.addEventListener("scroll", () => {
+    const nav = document.querySelector(".nav");
+    if (window.scrollY > 40) {
+      nav.classList.add("nav-blur");
+    } else {
+      nav.classList.remove("nav-blur");
+    }
+  });
+</script>
   <script src="script.js"></script>
+<script>
+  
+  document.querySelector(".nav-search-btn").addEventListener("click", (e) => {
+    e.preventDefault();
+    const section = document.getElementById("searchSection");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+
+    // Efek fokus ke input agar langsung bisa ngetik
+    const input = document.getElementById("searchInput");
+    if (input) {
+      setTimeout(() => input.focus(), 800);
+    }
+  });
+</script>
+
 </body>
 </html>
