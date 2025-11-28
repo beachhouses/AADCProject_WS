@@ -41,103 +41,112 @@
         </div>
       </div>
 
-      <button class="nav-search-btn" aria-label="Search">
-      </button>
+      <button class="nav-search-btn" aria-label="Search"></button>
     </nav>
   </header>
 
-<!-- HERO (Dynamic Auto-Slide) -->
-<section class="hero hero-main" id="nowShowing">
-  <div class="hero-bg"></div>
-  <div class="hero-content fade-in">
-    <div class="hero-info">
-      <h2 class="hero-sub" id="heroSub"></h2>
-      <h1 class="hero-title" id="heroTitle"></h1>
-      <p class="hero-desc" id="heroDesc">
-        Please wait while we load movie data.
-      </p>
+  <!-- HERO (Dynamic Auto-Slide) -->
+  <section class="hero hero-main" id="nowShowing">
+    <div class="hero-bg"></div>
+    <div class="hero-content fade-in">
+      <div class="hero-info">
+        <h2 class="hero-sub" id="heroSub"></h2>
+        <h1 class="hero-title" id="heroTitle"></h1>
+        <p class="hero-desc" id="heroDesc">
+          Please wait while we load movie data.
+        </p>
 
-      <div class="hero-rating">
-        <span class="year" id="heroYear">(....)</span>
-        <span class="stars" id="heroStars">★★★★★</span>
-      </div>
-
-      <div class="hero-btns">
-        <a href="#" class="btn-dark" id="heroDetailBtn">Detail Film</a>
-        <a href="#searchSection" class="btn-light">Search Cinema</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- STRIP NOW SHOWING (kartu film kecil) -->
-<section class="nowshowing-strip">
-  <div class="nowshowing-container">
-    <h3>NOW SHOWING</h3>
-    <div class="carousel-wrapper">
-      <button class="arrow-btn left" id="arrowLeft">❮</button>
-
-      <div class="nowshowing-carousel" id="heroThumbnails">
-        <!-- film cards loaded via JS -->
-      </div>
-
-      <button class="arrow-btn right" id="arrowRight">❯</button>
-    </div>
-  </div>
-</section>
-
-
-  <!-- SEARCH SECTION -->
-  <section class="search-section" id="searchSection">
-    <div class="search-wrapper">
-      <h2 class="section-title">Find Your Next Movie Spot!</h2>
-      <p class="section-subtitle">
-        Most Complete Cinema Directory in North Sumatera
-      </p>
-
-      <div class="search-bar-row">
-        <div class="search-input-wrapper">
-          <label for="searchInput">Search for Cinema</label>
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Ketik nama bioskop atau mall..."
-          />
+        <div class="hero-rating">
+          <span class="year" id="heroYear">(....)</span>
+          <span class="stars" id="heroStars">★★★★★</span>
         </div>
 
-        <button id="btnSearch" class="btn-search-main">
-          Cari!
-        </button>
+        <div class="hero-btns">
+          <a href="#searchSection" class="btn-light">Search Cinema</a>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- STRIP NOW SHOWING -->
+  <section class="nowshowing-strip reveal">
+    <div class="nowshowing-container">
+      <h3>NOW SHOWING</h3>
+      <div class="carousel-wrapper">
+        <button class="arrow-btn left" id="arrowLeft">❮</button>
+        <div class="nowshowing-carousel" id="heroThumbnails">
+          <!-- film cards loaded via JS -->
+        </div>
+        <button class="arrow-btn right" id="arrowRight">❯</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEARCH SECTION -->
+  <section class="search-section reveal" id="searchSection">
+    <div class="search-wrapper">
+      <h2 class="section-title reveal" style="transition-delay: 0.1s;">Find Your Next Movie Spot!</h2>
+      <p class="section-subtitle reveal" style="transition-delay: 0.2s;">
+        Most Complete Cinema Directory in North Sumatera
+      </p>
+
+<div class="search-bar-row reveal" style="transition-delay: 0.3s;">
+  <div class="search-input-wrapper">
+    <label for="searchInput">Search for Cinema</label>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Ketik nama bioskop atau mall..."
+    />
+  </div>
+
+  <div class="filter-selects">
+    <select id="ageFilter">
+      <option value="">Semua Usia</option>
+      <option value="SU">SU</option>
+      <option value="13+">13+</option>
+      <option value="17+">17+</option>
+      <option value="21+">21+</option>
+    </select>
+
+    <select id="genreFilter">
+      <option value="">Semua Genre</option>
+    </select>
+  </div>
+
+  <button id="btnSearch" class="btn-search-main">
+    Cari!
+  </button>
+</div>
+
+  </section>
+
   <!-- CINEMA GRID SECTION -->
-  <section class="cinema-section" id="cinemaCategories">
-    <h2 class="section-title">
+  <section class="cinema-section reveal" id="cinemaCategories">
+    <h2 class="section-title reveal" style="transition-delay: 0.1s;">
       Most complete cinema information search engine in North Sumatera
     </h2>
-    <p class="section-subtitle section-subtitle-small">
+    <p class="section-subtitle section-subtitle-small reveal" style="transition-delay: 0.2s;">
       Jelajahi bioskop di berbagai kota di Sumatera Utara, lengkap dengan
       alamat, rating, harga tiket, dan daftar film yang sedang tayang.
     </p>
 
-    <div class="filters-row">
-    <div id="cinemaGrid" class="cinema-grid">
-      <div class="empty-state">
-        Loading cinema data from <code>data.json</code>...
+    <div class="filters-row reveal" style="transition-delay: 0.3s;">
+      <div id="cinemaGrid" class="cinema-grid">
+        <div class="empty-state">
+          Loading cinema data from <code>data.json</code>...
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- (MODAL masih dibiarkan; kalau tidak dipakai bisa kamu hapus nanti) -->
+  <!-- MODAL -->
   <div id="movieModal" class="modal hidden">
     <div class="modal-backdrop"></div>
     <div class="modal-content">
       <button class="modal-close" id="modalCloseBtn">✕</button>
       <h3 id="modalCinemaName">Cinema Name</h3>
       <p class="modal-cinema-meta" id="modalCinemaMeta"></p>
-
       <div id="modalMoviesList" class="modal-movies-list">
         <!-- isi film -->
       </div>
@@ -145,36 +154,136 @@
   </div>
 
   <!-- FOOTER -->
-  <footer class="footer">
-    © 2025 AADC — Ada Apa di Cinema? | All rights reserved.
-  </footer>
+<footer class="footer reveal footer-elegant">
+  <div class="footer-inner">
+    <p>© 2025 Kelompok 3 <span class="footer-brand">AADC</span> — Ada Apa di Cinema?</p>
+    <p class="footer-sub">North Sumatera Cinema Guide | All rights reserved.</p>
+  </div>
+</footer>
 
+  <!-- NAV SCROLL EFFECT -->
   <script>
-  window.addEventListener("scroll", () => {
-    const nav = document.querySelector(".nav");
-    if (window.scrollY > 40) {
-      nav.classList.add("nav-blur");
-    } else {
-      nav.classList.remove("nav-blur");
-    }
-  });
-</script>
+    window.addEventListener("scroll", () => {
+      const nav = document.querySelector(".nav");
+      if (window.scrollY > 40) {
+        nav.classList.add("nav-blur");
+      } else {
+        nav.classList.remove("nav-blur");
+      }
+    });
+  </script>
+
   <script src="script.js"></script>
-<script>
-  
-  document.querySelector(".nav-search-btn").addEventListener("click", (e) => {
-    e.preventDefault();
-    const section = document.getElementById("searchSection");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+
+  <!-- SCROLL TO SEARCH BUTTON -->
+  <script>
+    document.querySelector(".nav-search-btn").addEventListener("click", (e) => {
+      e.preventDefault();
+      const section = document.getElementById("searchSection");
+      if (section) section.scrollIntoView({ behavior: "smooth" });
+
+      const input = document.getElementById("searchInput");
+      if (input) setTimeout(() => input.focus(), 800);
+    });
+  </script>
+
+  <!-- SCROLL REVEAL ANIMATION -->
+  <script>
+    function revealOnScroll() {
+      const reveals = document.querySelectorAll(".reveal");
+      const windowHeight = window.innerHeight;
+
+      reveals.forEach((el) => {
+        const elementTop = el.getBoundingClientRect().top;
+        const elementVisible = 120;
+
+        if (elementTop < windowHeight - elementVisible) {
+          el.classList.add("active");
+        } else {
+          el.classList.remove("active");
+        }
+      });
     }
 
-    // Efek fokus ke input agar langsung bisa ngetik
-    const input = document.getElementById("searchInput");
-    if (input) {
-      setTimeout(() => input.focus(), 800);
-    }
+    window.addEventListener("scroll", revealOnScroll);
+    window.addEventListener("load", revealOnScroll);
+
+      // biar footer muncul juga kalau halaman terlalu pendek (nggak bisa scroll)
+  window.addEventListener("scroll", revealOnScroll);
+  window.addEventListener("load", () => {
+    revealOnScroll();
+    setTimeout(() => {
+      document.querySelectorAll(".reveal").forEach((el) => el.classList.add("active"));
+    }, 1000);
   });
+
+window.addEventListener("DOMContentLoaded", () => {
+  const style = document.createElement("style");
+  style.textContent = `
+    /* === GAYA KHUSUS UNTUK DROPDOWN USIA & GENRE (SAMA DENGAN NAVBAR) === */
+    select#ageFilter,
+    select#genreFilter {
+      background: rgba(40, 22, 10, 0.9);
+      border: 1px solid rgba(255, 215, 120, 0.3);
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(6px);
+      color: #fcebb0;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 10px 16px;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      transition: all 0.25s ease;
+      height: 48px;
+      min-width: 140px;
+      background-image:
+        linear-gradient(45deg, #d39b5f 50%, transparent 50%),
+        linear-gradient(135deg, #d39b5f 50%, transparent 50%);
+      background-position:
+        calc(100% - 16px) 55%,
+        calc(100% - 10px) 55%;
+      background-size: 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    select#ageFilter:hover,
+    select#genreFilter:hover {
+      color: #fff8d8;
+      text-shadow: 0 0 10px rgba(255, 240, 160, 0.8);
+      background: rgba(50, 28, 13, 0.95);
+      border-color: rgba(255, 220, 150, 0.5);
+      transform: translateY(-1px);
+    }
+
+    select#ageFilter:focus,
+    select#genreFilter:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(255, 215, 120, 0.5);
+    }
+
+    /* === OPSI DALAM DROPDOWN === */
+    select#ageFilter option,
+    select#genreFilter option {
+      background: rgba(40, 22, 10, 0.95);
+      color: #fcebb0;
+      font-weight: 600;
+      border-radius: 999px;
+      transition: all 0.2s ease;
+    }
+
+    select#ageFilter option:hover,
+    select#genreFilter option:hover,
+    select#ageFilter option:checked,
+    select#genreFilter option:checked {
+    background: linear-gradient(90deg, #7a522f 0%, #a5723a 100%) !important;
+    color: #fff !important;
+    }
+  `;
+  document.head.appendChild(style);
+});
 </script>
 
 </body>

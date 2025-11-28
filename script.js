@@ -43,19 +43,58 @@ function getBrandFromName(name) {
   return "Other";
 }
 
+/* ====================== HELPER DETEKSI BIOSKOP ====================== */
+function isCinemaLike(obj) {
+  return (
+    obj &&
+    typeof obj === "object" &&
+    (
+      Array.isArray(obj.movies) || // punya movies
+      (typeof obj.name === "string" && typeof obj.city === "string") // atau minimal name + city
+    )
+  );
+}
+
+/* ====================== LOAD DATA (YANG DI-FIX) ====================== */
 async function loadData() {
   try {
     const res = await fetch("data.json");
-    const data = await res.json();
+    const raw = await res.json();
 
-    allCinemas = (data.cinemas || []).map((c) => ({
+    let cinemasRaw = [];
+
+    if (Array.isArray(raw)) {
+      // kasus: data.json = [ {bioskop}, {bioskop}, ... ]
+      cinemasRaw = raw.filter(isCinemaLike);
+    } else if (raw && typeof raw === "object") {
+      // kasus: { "cinemas": [ ... ] }
+      if (Array.isArray(raw.cinemas)) {
+        cinemasRaw = raw.cinemas.filter(isCinemaLike);
+      } 
+      // kasus: JSON-LD / nested, cari array yang isinya objek bioskop
+      if (!cinemasRaw.length) {
+        Object.values(raw).forEach((val) => {
+          if (Array.isArray(val)) {
+            const found = val.filter(isCinemaLike);
+            if (found.length) cinemasRaw = cinemasRaw.concat(found);
+          }
+        });
+      }
+      // kasus: cuma satu objek bioskop di root
+      if (!cinemasRaw.length && isCinemaLike(raw)) {
+        cinemasRaw = [raw];
+      }
+    }
+
+    allCinemas = cinemasRaw.map((c) => ({
       ...c,
       brand: getBrandFromName(c.name),
     }));
 
     if (!allCinemas.length) {
+      console.error("Tidak menemukan objek bioskop yang cocok di data.json", raw);
       els.cinemaGrid.innerHTML =
-        '<div class="empty-state">Data bioskop kosong. Pastikan <code>data.json</code> benar.</div>';
+        '<div class="empty-state">Data bioskop kosong / format <code>data.json</code> tidak sesuai.</div>';
       return;
     }
 
@@ -72,6 +111,7 @@ async function loadData() {
   }
 }
 
+/* ====================== CAROUSEL NOW SHOWING ====================== */
 const carousel = document.getElementById("heroThumbnails");
 const btnLeft = document.getElementById("arrowLeft");
 const btnRight = document.getElementById("arrowRight");
@@ -94,12 +134,11 @@ btnRight.addEventListener("click", () => {
   carousel.scrollBy({ left: 250, behavior: "smooth" });
 });
 
-// Auto scroll pelan terus (bisa kamu ubah speed)
+// Auto scroll pelan terus
 let autoScroll = setInterval(() => {
   carousel.scrollBy({ left: 1, behavior: "smooth" });
 }, 35);
 
-// Pause kalau user hover
 carousel.addEventListener("mouseenter", () => clearInterval(autoScroll));
 carousel.addEventListener("mouseleave", () => {
   autoScroll = setInterval(() => {
@@ -119,34 +158,33 @@ function fillFiltersAndCategories() {
     );
   });
 
-  // isi dropdown genre (filter di body)
-if (els.genreFilter) {
-  Array.from(allGenres)
-    .sort((a, b) => a.localeCompare(b))
-    .forEach((g) => {
-      const opt = document.createElement("option");
-      opt.value = g;
-      opt.textContent = g;
-      els.genreFilter.appendChild(opt);
-    });
-}
+  // isi dropdown genre
+  if (els.genreFilter) {
+    Array.from(allGenres)
+      .sort((a, b) => a.localeCompare(b))
+      .forEach((g) => {
+        const opt = document.createElement("option");
+        opt.value = g;
+        opt.textContent = g;
+        els.genreFilter.appendChild(opt);
+      });
+  }
 
   const brandArr = Array.from(brands);
   const cityArr = Array.from(cities).sort((a, b) => a.localeCompare(b));
 
-  // body cards: cuma dibikin kalau elemen-nya ada
   if (els.brandList && els.cityList) {
     buildCategoryListBody(els.brandList, brandArr, "brand");
     buildCategoryListBody(els.cityList, cityArr, "city");
   }
 
-  // dropdown di navbar
   buildNavDropdownMenus(brandArr, cityArr);
 }
 
-/* ====== HERO DINAMIS (AUTO SLIDE) ====== */
+/* ====== HERO DINAMIS (AUTO SLIDE FIXED) ====== */
 let heroIndex = 0;
 let heroMovies = [];
+let heroInterval = null;
 
 function renderHeroDynamic() {
   const movies = [];
@@ -155,21 +193,22 @@ function renderHeroDynamic() {
   });
   if (!movies.length) return;
 
-  // urutkan, biar yang "Sampai Titik Terakhirmu" tetap muncul pertama
-  heroMovies = [
-    ...movies.filter((x) =>
-      (x.movie.title || "").toLowerCase().includes("sampai titik terakhir")
-    ),
-    ...movies.filter(
-      (x) =>
-        !(x.movie.title || "")
-          .toLowerCase()
-          .includes("sampai titik terakhir")
-    ),
-  ];
+  // Ambil semua film yang punya heroBgUrl, lalu acak biar nggak selalu urutan sama
+  heroMovies = movies.filter((x) => x.movie.heroBgUrl || x.movie.posterUrl);
+  heroMovies = heroMovies.sort(() => Math.random() - 0.5);
 
-  updateHeroSlide(); // tampilkan pertama kali
-  setInterval(nextHeroSlide, 6000); // ganti tiap 6 detik
+  // Langsung tampilkan slide pertama
+  heroIndex = 0;
+  updateHeroSlide();
+
+  // Bersihkan interval lama jika ada
+  if (heroInterval) clearInterval(heroInterval);
+
+  // Ganti slide otomatis tiap 6 detik
+  heroInterval = setInterval(() => {
+    heroIndex = (heroIndex + 1) % heroMovies.length;
+    updateHeroSlide();
+  }, 6000);
 }
 
 function updateHeroSlide() {
@@ -177,10 +216,9 @@ function updateHeroSlide() {
   const { cinema, movie } = heroMovies[heroIndex];
 
   els.heroContent = els.heroContent || document.querySelector(".hero-content");
-  els.heroContent.classList.add("fade-out");
+  if (els.heroContent) els.heroContent.classList.add("fade-out");
 
   setTimeout(() => {
-    // Ganti data hero
     els.heroTitle.textContent = movie.title || "Now Showing";
     els.heroYear.textContent = movie.year ? `(${movie.year})` : "(2025)";
 
@@ -205,30 +243,20 @@ function updateHeroSlide() {
         "North Sumatera"}. Genre: ${g}, screen type: ${screen}.`;
     }
 
-    // background hero: pakai heroBgUrl > posterUrl > default
-    if (els.heroBg) {
-      const bg =
-        movie.heroBgUrl ||
-        movie.posterUrl ||
-        "hero-placeholder.jpg";
-      els.heroBg.style.backgroundImage = `url("${bg}")`;
+    let bgImg = movie.heroBgUrl;
+    if (!bgImg || bgImg.trim() === "") {
+      bgImg = movie.posterUrl;
     }
+    els.heroBg.style.backgroundImage = `url("${bgImg}")`;
 
-    // animasi fade-in
-    els.heroContent.classList.remove("fade-out");
-    els.heroContent.classList.add("fade-in");
+    if (els.heroContent) {
+      els.heroContent.classList.remove("fade-out");
+      els.heroContent.classList.add("fade-in");
+    }
   }, 400);
 }
 
-function nextHeroSlide() {
-  heroIndex = (heroIndex + 1) % heroMovies.length;
-  updateHeroSlide();
-}
-
-
-
-/* ====== NOW SHOWING STRIP (kartu kecil di bawah hero) ====== */
-
+/* ====== NOW SHOWING STRIP ====== */
 function renderNowShowingStrip() {
   if (!els.heroThumbnails) return;
 
@@ -275,7 +303,6 @@ function renderNowShowingStrip() {
 }
 
 /* ====== KATEGORI DI BODY ====== */
-
 function buildCategoryListBody(container, items, type) {
   container.innerHTML = "";
   items.forEach((label) => {
@@ -318,10 +345,8 @@ function updateCategoryActiveBody() {
   });
 }
 
-/* ====== NAV DROPDOWN MENUS ====== */
-
+/* ====== NAVBAR DROPDOWN ====== */
 function buildNavDropdownMenus(brands, cities) {
-  // cinema brands
   els.navCinemaMenu.innerHTML = "";
   brands.forEach((b) => {
     const div = document.createElement("div");
@@ -343,7 +368,6 @@ function buildNavDropdownMenus(brands, cities) {
     els.navCinemaMenu.appendChild(div);
   });
 
-  // cities
   els.navCityMenu.innerHTML = "";
   cities.forEach((city) => {
     const div = document.createElement("div");
@@ -370,19 +394,15 @@ function closeAllNavDropdowns() {
 }
 
 /* ====== FILTER & GRID BIOSKOP ====== */
-
 function bindEvents() {
   els.btnSearch.addEventListener("click", applyFilters);
   els.searchInput.addEventListener("keyup", (e) => {
     if (e.key === "Enter") applyFilters();
   });
 
-  // kalau dropdown Age & Genre dihapus, amanin aja:
   if (els.ageFilter) els.ageFilter.addEventListener("change", applyFilters);
   if (els.genreFilter) els.genreFilter.addEventListener("change", applyFilters);
-}
 
-  // nav dropdown toggle
   document
     .querySelectorAll(".nav-dropdown-toggle")
     .forEach((btn) => {
@@ -395,15 +415,15 @@ function bindEvents() {
       });
     });
 
-  // klik di luar menutup dropdown
   document.addEventListener("click", () => {
     closeAllNavDropdowns();
   });
+}
 
 function applyFilters() {
-  const q = els.searchInput.value.trim().toLowerCase();
-  const age = els.ageFilter.value;
-const genre = els.genreFilter ? els.genreFilter.value : "";
+  const q = els.searchInput?.value?.trim()?.toLowerCase() || "";
+  const age = els.ageFilter?.value || "";
+  const genre = els.genreFilter?.value || "";
 
   const filtered = allCinemas.filter((cinema) => {
     if (filters.city && cinema.city !== filters.city) return false;
@@ -462,18 +482,11 @@ function renderCinemas(cinemas) {
     top.appendChild(gradient);
     card.appendChild(top);
 
-    top.className = "cinema-card-top";
-
-    // === TAMBAHAN: pasang gambar sebagai background area atas kartu ===
     if (cinema.imageUrl) {
       top.style.backgroundImage = `url("${cinema.imageUrl}")`;
       top.style.backgroundSize = "cover";
       top.style.backgroundPosition = "center";
     }
-
-    gradient.className = "cinema-card-gradient";
-    top.appendChild(gradient);
-    card.appendChild(top);
 
     const body = document.createElement("div");
     body.className = "cinema-card-body";
@@ -552,6 +565,26 @@ function renderCinemas(cinemas) {
   els.cinemaGrid.innerHTML = "";
   els.cinemaGrid.appendChild(frag);
 }
+
+// ===== Scroll Reveal Effect =====
+function revealOnScroll() {
+  const reveals = document.querySelectorAll(".reveal");
+  const windowHeight = window.innerHeight;
+
+  reveals.forEach((el) => {
+    const elementTop = el.getBoundingClientRect().top;
+    const elementVisible = 100; // jarak sebelum mulai muncul
+
+    if (elementTop < windowHeight - elementVisible) {
+      el.classList.add("active");
+    } else {
+      el.classList.remove("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
 
 // start
 loadData();

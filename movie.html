@@ -79,15 +79,19 @@
     </div>
   </main>
 
-  <footer class="footer">
-    © 2025 AADC — Ada Apa di Cinema? | All rights reserved.
-  </footer>
+  <!-- FOOTER -->
+<footer class="footer reveal footer-elegant">
+  <div class="footer-inner">
+    <p>© 2025 Kelompok 3 <span class="footer-brand">AADC</span> — Ada Apa di Cinema?</p>
+    <p class="footer-sub">North Sumatera Cinema Guide | All rights reserved.</p>
+  </div>
+</footer>
 
   <!-- JS -->
   <script src="movie.js"></script>
 
+    <!-- NAV SCROLL EFFECT -->
   <script>
-    // Navbar blur saat scroll
     window.addEventListener("scroll", () => {
       const nav = document.querySelector(".nav");
       if (window.scrollY > 40) {
@@ -96,31 +100,51 @@
         nav.classList.remove("nav-blur");
       }
     });
+  </script>
 
-    // Dropdown toggle
-    document.querySelectorAll(".nav-dropdown-toggle").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const parent = btn.closest(".nav-dropdown");
-        const isOpen = parent.classList.contains("open");
-        document.querySelectorAll(".nav-dropdown").forEach((el) => el.classList.remove("open"));
-        if (!isOpen) parent.classList.add("open");
-      });
+  <script src="script.js"></script>
+
+  <!-- SCROLL TO SEARCH BUTTON -->
+  <script>
+    document.querySelector(".nav-search-btn").addEventListener("click", (e) => {
+      e.preventDefault();
+      const section = document.getElementById("searchSection");
+      if (section) section.scrollIntoView({ behavior: "smooth" });
+
+      const input = document.getElementById("searchInput");
+      if (input) setTimeout(() => input.focus(), 800);
     });
+  </script>
 
-    // Tutup dropdown kalau klik di luar
-    document.addEventListener("click", () => {
-      document.querySelectorAll(".nav-dropdown").forEach((el) => el.classList.remove("open"));
-    });
+  <!-- SCROLL REVEAL ANIMATION -->
+  <script>
+    function revealOnScroll() {
+      const reveals = document.querySelectorAll(".reveal");
+      const windowHeight = window.innerHeight;
 
-    // Tombol search: arahkan ke section pencarian di index
-    const searchBtn = document.querySelector(".nav-search-btn");
-    if (searchBtn) {
-      searchBtn.addEventListener("click", (e) => {
-        e.preventDefault();
-        window.location.href = "index.html#searchSection";
+      reveals.forEach((el) => {
+        const elementTop = el.getBoundingClientRect().top;
+        const elementVisible = 120;
+
+        if (elementTop < windowHeight - elementVisible) {
+          el.classList.add("active");
+        } else {
+          el.classList.remove("active");
+        }
       });
     }
+
+    window.addEventListener("scroll", revealOnScroll);
+    window.addEventListener("load", revealOnScroll);
+
+      // biar footer muncul juga kalau halaman terlalu pendek (nggak bisa scroll)
+  window.addEventListener("scroll", revealOnScroll);
+  window.addEventListener("load", () => {
+    revealOnScroll();
+    setTimeout(() => {
+      document.querySelectorAll(".reveal").forEach((el) => el.classList.add("active"));
+    }, 1000);
+  });
   </script>
 </body>
 </html>

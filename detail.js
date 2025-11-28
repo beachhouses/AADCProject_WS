@@ -7,7 +7,6 @@ const detailEls = {
   scheduleSub: document.getElementById("detailScheduleSub"),
   movieList: document.getElementById("detailMovieList"),
   btnNearest: document.getElementById("btnNearest"),
-  // 🟢 Tambahan: elemen foto bioskop
   cinemaPhoto: document.getElementById("detailCinemaPhoto"),
 };
 
@@ -61,7 +60,7 @@ function renderCinemaHeader(cinema) {
   if (cinema.totalStudios) metaPieces.push(`${cinema.totalStudios} studio`);
   detailEls.cinemaMeta.textContent = metaPieces.join(" • ");
 
-  // 🟢 Tambahan: tampilkan gambar bioskop kalau ada imageUrl
+  // 🟢 tampilkan gambar bioskop kalau ada
   if (cinema.imageUrl && detailEls.cinemaPhoto) {
     detailEls.cinemaPhoto.style.backgroundImage = `url("${cinema.imageUrl}")`;
     detailEls.cinemaPhoto.style.backgroundSize = "cover";
@@ -69,21 +68,37 @@ function renderCinemaHeader(cinema) {
     detailEls.cinemaPhoto.style.backgroundRepeat = "no-repeat";
   }
 
-  // Map embed
+  // 🟢 tampilkan peta
   detailEls.mapEmbed.innerHTML = "";
-  if (cinema.mapLink && cinema.mapLink.includes("google")) {
+
+  if (cinema.mapEmbed) {
+    // Versi embed langsung (iframe)
     const iframe = document.createElement("iframe");
-    iframe.src = cinema.mapLink;
+    iframe.src = cinema.mapEmbed;
+    iframe.loading = "lazy";
+    iframe.referrerPolicy = "no-referrer-when-downgrade";
+    iframe.allowFullscreen = true;
+    iframe.style.width = "100%";
+    iframe.style.height = "230px";
+    iframe.style.border = "none";
+    iframe.style.borderRadius = "16px";
     detailEls.mapEmbed.appendChild(iframe);
   } else if (cinema.mapLink) {
+    // fallback ke link biasa
     const link = document.createElement("a");
     link.href = cinema.mapLink;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-    link.textContent = "Lihat lokasi di Maps";
+    link.textContent = "Lihat lokasi di Google Maps";
+    link.style.display = "block";
+    link.style.textAlign = "center";
+    link.style.background = "#e5e7eb";
+    link.style.padding = "12px 16px";
+    link.style.borderRadius = "16px";
+    link.style.textDecoration = "none";
     detailEls.mapEmbed.appendChild(link);
   } else {
-    detailEls.mapEmbed.textContent = "Link lokasi tidak tersedia.";
+    detailEls.mapEmbed.textContent = "Lokasi belum tersedia.";
   }
 }
 

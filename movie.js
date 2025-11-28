@@ -168,7 +168,7 @@ function renderMovie(movie, cinemaNames) {
       .join("");
   } else {
     mEls.synopsis.textContent =
-      'Sinopsis tertulis belum tersedia di data.json. Kamu bisa menambahkannya di field "synopsisText" untuk film ini.';
+      '';
   }
 
 
