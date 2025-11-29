@@ -63,12 +63,23 @@
         </div>
       </div>
 
-      <section class="movie-trailer-section">
-        <h2 class="movie-trailer-title">TRAILER DAN SINOPSIS</h2>
+      <!-- ====== TRAILER DAN SINOPSIS ====== -->
+      <section class="movie-extra">
+        <h3 class="movie-extra-title">TRAILER DAN SINOPSIS</h3>
 
-        <div class="movie-trailer-frame" id="movieTrailerFrame"></div>
-        <div class="movie-synopsis-text" id="movieSynopsis">Memuat sinopsis film...</div>
-        <p class="movie-date-info" id="movieDateInfo"></p>
+        <!-- Wadah untuk trailer YouTube -->
+        <div class="movie-trailer-frame-wrapper">
+          <div id="movieTrailerFrame" class="movie-trailer-frame"></div>
+          <div id="movieExternalLink" class="movie-external-link"></div>
+        </div>
+
+        <!-- Sinopsis text -->
+        <div id="movieSynopsis" class="movie-synopsis">
+          <p>Sinopsis sedang dimuat...</p>
+        </div>
+
+        <!-- Info jadwal / bioskop -->
+        <p id="movieDateInfo" class="movie-date-info"></p>
       </section>
     </section>
 
@@ -80,17 +91,17 @@
   </main>
 
   <!-- FOOTER -->
-<footer class="footer reveal footer-elegant">
-  <div class="footer-inner">
-    <p>© 2025 Kelompok 3 <span class="footer-brand">AADC</span> — Ada Apa di Cinema?</p>
-    <p class="footer-sub">North Sumatera Cinema Guide | All rights reserved.</p>
-  </div>
-</footer>
+  <footer class="footer reveal footer-elegant">
+    <div class="footer-inner">
+      <p>© 2025 Kelompok 3 <span class="footer-brand">AADC</span> — Ada Apa di Cinema?</p>
+      <p class="footer-sub">North Sumatera Cinema Guide | All rights reserved.</p>
+    </div>
+  </footer>
 
   <!-- JS -->
-  <script src="movie.js"></script>
+  <script src="movie.js" defer></script>
 
-    <!-- NAV SCROLL EFFECT -->
+  <!-- NAV SCROLL EFFECT -->
   <script>
     window.addEventListener("scroll", () => {
       const nav = document.querySelector(".nav");
@@ -106,14 +117,17 @@
 
   <!-- SCROLL TO SEARCH BUTTON -->
   <script>
-    document.querySelector(".nav-search-btn").addEventListener("click", (e) => {
-      e.preventDefault();
-      const section = document.getElementById("searchSection");
-      if (section) section.scrollIntoView({ behavior: "smooth" });
+    const searchBtn = document.querySelector(".nav-search-btn");
+    if (searchBtn) {
+      searchBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        const section = document.getElementById("searchSection");
+        if (section) section.scrollIntoView({ behavior: "smooth" });
 
-      const input = document.getElementById("searchInput");
-      if (input) setTimeout(() => input.focus(), 800);
-    });
+        const input = document.getElementById("searchInput");
+        if (input) setTimeout(() => input.focus(), 800);
+      });
+    }
   </script>
 
   <!-- SCROLL REVEAL ANIMATION -->
@@ -135,16 +149,51 @@
     }
 
     window.addEventListener("scroll", revealOnScroll);
-    window.addEventListener("load", revealOnScroll);
-
-      // biar footer muncul juga kalau halaman terlalu pendek (nggak bisa scroll)
-  window.addEventListener("scroll", revealOnScroll);
-  window.addEventListener("load", () => {
-    revealOnScroll();
-    setTimeout(() => {
-      document.querySelectorAll(".reveal").forEach((el) => el.classList.add("active"));
-    }, 1000);
-  });
+    window.addEventListener("load", () => {
+      revealOnScroll();
+      setTimeout(() => {
+        document.querySelectorAll(".reveal").forEach((el) => el.classList.add("active"));
+      }, 1000);
+    });
   </script>
+
+  <!-- ===== SMOOTH SCROLL & FADE-IN ANIMATION ===== -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Smooth scroll untuk anchor internal (#)
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener("click", e => {
+      const target = document.querySelector(link.getAttribute("href"));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+
+  // Efek fade + slide-up saat elemen muncul di viewport
+  const revealTargets = document.querySelectorAll(
+    ".movie-card, .movie-extra, .movie-back-bar, .footer"
+  );
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fade-in-active");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  revealTargets.forEach(el => {
+    el.classList.add("fade-in-init");
+    observer.observe(el);
+  });
+});
+</script>
+  
 </body>
 </html>
